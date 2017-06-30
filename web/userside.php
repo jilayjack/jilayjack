@@ -58,7 +58,7 @@ include 'usernav.php';
 					<div class="carousel-caption">
 						<h3>The Biggest <span>Sale</span></h3>
 						<p>Special for today</p>
-						<a class="hvr-outline-out button2" href="mens.html">Shop Now </a>
+						<a class="hvr-outline-out button2" href="mens.php">Shop Now </a>
 					</div>
 				</div>
 			</div>
@@ -67,7 +67,7 @@ include 'usernav.php';
 					<div class="carousel-caption">
 						<h3>Summer <span>Collection</span></h3>
 						<p>New Arrivals On Sale</p>
-						<a class="bootstrap-templates" href="mens.html">Shop Now </a>
+						<a class="bootstrap-templates" href="userside.php">Shop Now </a>
 					</div>
 				</div>
 			</div>
@@ -76,7 +76,7 @@ include 'usernav.php';
 					<div class="carousel-caption">
 						<h3>The Biggest <span>Sale</span></h3>
 						<p>Special for today</p>
-						<a class="hvr-outline-out button2" href="mens.html">Shop Now </a>
+						<a class="hvr-outline-out button2" href="userside.php">Shop Now </a>
 					</div>
 				</div>
 			</div>
@@ -85,7 +85,7 @@ include 'usernav.php';
 					<div class="carousel-caption">
 						<h3>Summer <span>Collection</span></h3>
 						<p>New Arrivals On Sale</p>
-						<a class="hvr-outline-out button2" href="mens.html">Shop Now </a>
+						<a class="hvr-outline-out button2" href="userside.php">Shop Now </a>
 					</div>
 				</div>
 			</div>
@@ -94,7 +94,7 @@ include 'usernav.php';
 					<div class="carousel-caption">
 						<h3>The Biggest <span>Sale</span></h3>
 						<p>Special for today</p>
-						<a class="hvr-outline-out button2" href="mens.html">Shop Now </a>
+						<a class="hvr-outline-out button2" href="userside.php">Shop Now </a>
 					</div>
 				</div>
 			</div> 
@@ -224,8 +224,8 @@ include 'usernav.php';
 							<div class="col-md-3 product-men">
 								<div class="men-pro-item simpleCart_shelfItem">
 									<div class="men-thumb-item">
-										<img src="images/m1.jpg" alt="" class="pro-image-front">
-										<img src="images/m1.jpg" alt="" class="pro-image-back">
+										<img src="images/1-1.jpg" alt="" class="pro-image-front">
+										<img src="images/1-1(1).jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -263,8 +263,8 @@ include 'usernav.php';
 							<div class="col-md-3 product-men">
 								<div class="men-pro-item simpleCart_shelfItem">
 									<div class="men-thumb-item">
-										<img src="images/m2.jpg" alt="" class="pro-image-front">
-										<img src="images/m2.jpg" alt="" class="pro-image-back">
+										<img src="images/2-1.jpg" alt="" class="pro-image-front">
+										<img src="images/2-1 (1).jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -302,13 +302,13 @@ include 'usernav.php';
                             <div class="col-md-3 product-men">
 								<div class="men-pro-item simpleCart_shelfItem">
 									<div class="men-thumb-item">
-										<img src="images/m3.jpg" alt="" class="pro-image-front">
-										<img src="images/m3.jpg" alt="" class="pro-image-back">
+										<img src="images/3.jpg" alt="" class="pro-image-front">
+										<img src="images/3(1).jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="single.html" class="link-product-add-cart">Quick View</a>
 												</div>
-											</div>
+											</div><br>
 											<span class="product-new-top">New</span>
 											
 									</div>
@@ -341,13 +341,13 @@ include 'usernav.php';
 							<div class="col-md-3 product-men">
 								<div class="men-pro-item simpleCart_shelfItem">
 									<div class="men-thumb-item">
-										<img src="images/m4.jpg" alt="" class="pro-image-front">
-										<img src="images/m4.jpg" alt="" class="pro-image-back">
+										<img src="images/3,jpg (1).jpg" alt="" class="pro-image-front">
+										<img src="images/3,jpg.jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="single.html" class="link-product-add-cart">Quick View</a>
 												</div>
-											</div>
+											</div><br><br><br><br>
 											<span class="product-new-top">New</span>
 											
 									</div>
@@ -380,8 +380,8 @@ include 'usernav.php';
 							<div class="col-md-3 product-men">
 								<div class="men-pro-item simpleCart_shelfItem">
 									<div class="men-thumb-item">
-										<img src="images/m5.jpg" alt="" class="pro-image-front">
-										<img src="images/m5.jpg" alt="" class="pro-image-back">
+										<img src="images/4-1.jpg" alt="" class="pro-image-front">
+										<img src="images/4-1 (1).jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -419,8 +419,8 @@ include 'usernav.php';
 								<div class="col-md-3 product-men">
 								<div class="men-pro-item simpleCart_shelfItem">
 									<div class="men-thumb-item">
-										<img src="images/m7.jpg" alt="" class="pro-image-front">
-										<img src="images/m7.jpg" alt="" class="pro-image-back">
+										<img src="images/7.jpg" alt="" class="pro-image-front">
+										<img src="images/7 (1).jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -458,8 +458,8 @@ include 'usernav.php';
 								<div class="col-md-3 product-men">
 								<div class="men-pro-item simpleCart_shelfItem">
 									<div class="men-thumb-item">
-										<img src="images/m6.jpg" alt="" class="pro-image-front">
-										<img src="images/m6.jpg" alt="" class="pro-image-back">
+										<img src="images/8-1.jpg" alt="" class="pro-image-front">
+										<img src="images/8-1 (1).jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -497,8 +497,8 @@ include 'usernav.php';
 								<div class="col-md-3 product-men">
 								<div class="men-pro-item simpleCart_shelfItem">
 									<div class="men-thumb-item">
-										<img src="images/m8.jpg" alt="" class="pro-image-front">
-										<img src="images/m8.jpg" alt="" class="pro-image-back">
+										<img src="images/9-1.jpg" alt="" class="pro-image-front">
+										<img src="images/9-1 (1).jpg" alt="" class="pro-image-back">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="single.html" class="link-product-add-cart">Quick View</a>
@@ -1495,7 +1495,7 @@ include 'usernav.php';
 			<div class="container">
 				<h6>We Offer Flat <span>40%</span> Discount</h6>
  
-				<a class="hvr-outline-out button2" href="single.html">Shop Now </a>
+				<a class="hvr-outline-out button2" href="userside.php">Shop Now </a>
 			</div>
 		</div>
 	<!-- //we-offer -->
@@ -1720,3 +1720,88 @@ include 'usernav.php';
 <!-- //login -->
 <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<script src="js/modernizr.custom.js"></script>
+	<!-- Custom-JavaScript-File-Links --> 
+	<!-- cart-js -->
+	<script src="js/minicart.min.js"></script>
+<script>
+	// Mini Cart
+	paypal.minicart.render({
+		action: '#'
+	});
+
+	if (~window.location.search.indexOf('reset=true')) {
+		paypal.minicart.reset();
+	}
+</script>
+
+	<!-- //cart-js --> 
+<!-- script for responsive tabs -->						
+<script src="js/easy-responsive-tabs.js"></script>
+<script>
+	$(document).ready(function () {
+	$('#horizontalTab').easyResponsiveTabs({
+	type: 'default', //Types: default, vertical, accordion           
+	width: 'auto', //auto or any width like 600px
+	fit: true,   // 100% fit in a container
+	closed: 'accordion', // Start closed if in accordion view
+	activate: function(event) { // Callback function if tab is switched
+	var $tab = $(this);
+	var $info = $('#tabInfo');
+	var $name = $('span', $info);
+	$name.text($tab.text());
+	$info.show();
+	}
+	});
+	$('#verticalTab').easyResponsiveTabs({
+	type: 'vertical',
+	width: 'auto',
+	fit: true
+	});
+	});
+</script>
+<!-- //script for responsive tabs -->		
+<!-- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+	<script>
+		$('.counter').countUp();
+	</script>
+<!-- //stats -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+
+
+<!-- for bootstrap working -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

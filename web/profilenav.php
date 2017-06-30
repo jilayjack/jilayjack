@@ -22,16 +22,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 <div class="header" id="home">
+								<div class="container">
+		<ul>
+		    <li> <a href="userside.php" > Home </a></li>
+	
+				
 					<li class="dropdown menu__item">
-						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Your Profile <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile <span class="caret"></span></a>
 							<ul class="dropdown-menu multi-column columns-3">
 								<div class="agile_inner_drop_nav_info">
 									<div class="col-sm-6 multi-gd-img1 multi-gd-text ">
-										<a href="mens.html"><img src="images/top2.jpg" alt=" "/></a>
 									</div>
 									<div class="col-sm-3 multi-gd-img">
 										<ul class="multi-column-dropdown">
-											<li><a href="userprofile.php">View Profile</a></li>
+										<li><a href="userprofile.php">View Profile</a></li>
 											<li><a href="update.php">Update Profile</a></li>
 											<li><a href="userchangepass.php">Change Password</a></li>
 											<li><a href="home.php">Sign Out</a></li>
