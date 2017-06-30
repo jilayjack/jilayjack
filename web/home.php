@@ -197,6 +197,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														<div class="clearfix"></div>
 														<p><a href="#" data-toggle="modal" data-target="#myModal2" > Don't have an account?</a></p>
                                                            <p><a href="#" data-toggle="modal" data-target="#myModal2" > Admin</a></p>
+									                    <p><a href="forget.php" data-toggle="modal" data-target="#myModal2" > Forget Password?</a></p>
  
 						</div>
 						<div class="col-md-4 modal_body_right modal_body_right1">
