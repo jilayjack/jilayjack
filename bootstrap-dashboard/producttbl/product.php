@@ -53,8 +53,7 @@ if($result->num_rows>0){
        echo '<td>'. $row["product_name"].'</td>';
          echo '<td>'. $row["product_prize"]. '</td>';
        //echo '<td> <img src="'.$row["product_image1"].'"> </td>';
-      
-     echo  '<td>'?> <img src="<?php echo $row["product_image1"];?>" height="100" width="100"><?php echo '</td>';
+ echo  '<td>'?> <img src="<?php echo $row["product_image1"];?>" height="100" width="100"><?php echo '</td>';
       
        echo '<td><a href="productupdate.php?id='.$row["pk_product_id"].'"> view more<span class="glyphicon glyphicon-pencil "></span></a>|
        <a href="productdel.php?id='.$row["pk_product_id"].'">delete<span class="glyphicon glyphicon-trash "></span> </a>|
