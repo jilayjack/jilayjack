@@ -33,8 +33,10 @@ include 'side.php';
 ?>
 </head>
 <body>
+<form action="mutidel.php" method="post">
 <table class="table">
 <thead>
+<th>delete</th>
 <th>Product Name</th>
 <th>Product_price</th>
 
@@ -50,13 +52,14 @@ if($result->num_rows>0){
     while($row =$result->fetch_assoc())
     {
        echo '<tr>';
+       echo '<td>' ?> <input type="checkbox" name="chk[]" value="<?php echo $row["pk_product_id"]; ?>"><?php '</td>';
        echo '<td>'. $row["product_name"].'</td>';
          echo '<td>'. $row["product_prize"]. '</td>';
        //echo '<td> <img src="'.$row["product_image1"].'"> </td>';
       
      echo  '<td>'?> <img src="<?php echo $row["product_image1"];?>" height="100" width="100"><?php echo '</td>';
       
-       echo '<td><a href="productupdate.php?id='.$row["pk_product_id"].'"> view more<span class="glyphicon glyphicon-pencil "></span></a>|
+       echo '<td><a href="viewmore.php?id='.$row["pk_product_id"].'"> view more<span class="glyphicon glyphicon-pencil "></span></a>|
        <a href="productdel.php?id='.$row["pk_product_id"].'">delete<span class="glyphicon glyphicon-trash "></span> </a>|
        <a href="productupdate.php?id='.$row["pk_product_id"].'"> Update<span class="glyphicon glyphicon-pencil "></span></a> </td>';
    
@@ -66,11 +69,10 @@ if($result->num_rows>0){
 
 ?>
 </table>
-<form>
+<center><input type="submit" class="btn btn-success" name="btnadd" value="delete" ></center>
+</form>
 <center>
 <a href="productinsert.php" class="btn btn-success">Insert</a>
 
-</form>
-</form>
 </body>
 </html>

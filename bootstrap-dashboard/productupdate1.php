@@ -1,56 +1,81 @@
 <?php
-$_oldimg=$_GET["img"];
-$_pid=$_POST["txtid"];
-  
-$_pname=$_POST["txtname"];
-  
-$_pcolor=$_POST["txtcolor"];
+session_start();
+ $_oldimg1=$_SESSION["img1"];
+  $_oldimg2=$_SESSION["img2"];
+ $_oldimg3=$_SESSION["img3"];
+ 
+ $_name=$_POST["txtname"];
+ $_price=$_POST["txtprice"];
+ $_menuf=$_POST["txtmanu"];
+ $_color=$_POST["txtcolor"];
+  $_pimg1=basename($_FILES["txtimg1"]["name"]);
+    $_pimg2=basename($_FILES["txtimg2"]["name"]);
+      $_pimg3=basename($_FILES["txtimg1"]["name"]);
+ $_warr=$_POST["txtwarranty"];
+ $_soh=$_POST["txtstock"];
+ $_desc=$_POST["txtdesc"];
+$_cat=$_POST["fk_catid"];
 
-$_pprice=$_POST["txtprice"];
- 
-$_manu=$_POST["txtmanu"];
- 
-$_warranty=$_POST["txtwarranty"];
-     
-$_stock=$_POST["txtstock"];
-     
-$_img=basename($_FILES["txtimg"]["name"]);
-     
-//$_action=$_POST["txtaction"];
-if($_img=="")
+
+if($_pimg1=="")
 {
-    $_img=$_oldimg;
+$_pimg1=$_oldimg1;
 }
 else
 {
-    unlink($_oldimg);
-    move_uploaded_file($_FILES["txtimg"]["name"],"img/".$_img);
-     
+   // $_oldimg1="../".$_oldimg1;
+unlink($_oldimg1);
+move_uploaded_file($_FILES["txtimg1"]["tmp_name"],"img1/".$_pimg1);
+$_pimg1="img1/".$_pimg1;
 }
-require 'classdemo.php';
-$obj=new database();
-$result=$obj->updateproducts($_pid,$_pname,$_pcolor,$_pprice,$_manu,$_warranty,$_stock,$_img);
-
-
-//$conn=new mysqli("localhost","root","","testdb");
-
-//$sql="update product_table set product_name='". $_pname ."',product_color='". $_pcolor ."',product_price='". $_pprice ."',manufacturer='". $_manu ."',warranty='". $_warranty ."',stock_on_hand='".$_stock."',product_img='". $_img ."',action='".$_action ."' where product_id='".$_pid."'";
-
-if($result===true){
-  //echo "sucdces";
-  
-  header('location:product.php');
-    //echo $sql;
-//echo "suceesfull";
+if($_pimg2=="")
+{
+$_pimg2=$_oldimg2;
 }
 else
 {
-    echo $sql;
-    echo "fail";
+    //$_oldimg2="../".$_oldimg2;
+unlink($_oldimg2);
+move_uploaded_file($_FILES["txtimg2"]["tmp_name"],"img1/".$_pimg2);
+$_pimg2="img1/".$_pimg2;
 }
+if($_pimg3=="")
+{
+$_pimg3=$_oldimg3;
+}
+else
+{
+   // $_oldimg3="../".$_oldimg3;
+unlink($_oldimg3);
+move_uploaded_file($_FILES["txtimg3"]["tmp_name"],"img1/".$_pimg3);
+$_pimg3="img1/".$_pimg3;
+}
+echo $_name ."<br>";
+ echo $_price ."<br>";
+ echo $_menuf ."<br>";
+ echo $_color ."<br>";
+  echo $_pimg1 ."<br>";
+    echo $_pimg2 ."<br>";
+    echo  $_pimg3 ."<br>";
+ echo $_warr ."<br>";
+ echo $_soh ."<br>";
+ echo $_desc ."<br>";
+echo $_cat ."<br>";
 
-       
+require 'database.php';
+  $obj=new productadmin;
+   echo $_pid=$_SESSION["id"];
+  $result=$obj->UpdateProduct1($_pid,$_name,$_price,$_menuf,$_color,$_pimg1,$_pimg2,$_pimg3,$_warr,$_soh,$_desc,$_cat);
 
+if($result===true)
 
+{
+header('location:product.php');
+}
+else
+{
+   echo $result;
+echo "record inserted not suseesfully";
 
+}
 ?>
