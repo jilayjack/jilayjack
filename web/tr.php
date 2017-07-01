@@ -23,12 +23,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <body>
 
-				<div class="resp-tabs-container">
-					<!--/tab_one-->
-						<div class="tab1">
-							<div class="col-md-3 product-men">
-								<div class="men-pro-item simpleCart_shelfItem">
-	<div class="men-thumb-item">
 										
     
     
@@ -40,9 +34,16 @@ $obj=new database();
 $result=$obj-> getproducts();
 
 while($row=$result->fetch_assoc())
+
 {
 
-//echo '<div class="men-thumb-item"> ';
+echo '<div class="resp-tabs-container">';
+		echo '<div class="tab1">';
+			echo '<div class="col-md-3 product-men">';
+				echo '<div class="men-pro-item simpleCart_shelfItem">';
+										
+    
+echo '<div class="men-thumb-item"> ';
 //echo '<div class="product-box">';
 echo '<p><a href="usrdisplay1.php?id='.$row["pk_product_id"].'">';//.'<img src=""  alt="" height="50px" width="50px" /></a></p>';
 echo '<img src="'.$row["product_image1"].'" alt="" class="pro-image-front">';
@@ -70,7 +71,14 @@ echo '<div class="item-info-product ">';
             echo '<br>';
 echo '<input type="submit" class="btn btn-success" name="btnsub" value="BUY">';																										
 echo '</div>';
+
+					echo '</div>';
+					echo '</div>';
+					echo '</div>';
+
 }
+
+
 ?>
 </div></div>
 </div>
@@ -111,11 +119,11 @@ echo '</div>';
 																</fieldset>
 															</form>
 														</div>
-							-->												
+																			
 									</div>
 								</div>
-							</div>
-	
+						</div>
+	-->
     <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
