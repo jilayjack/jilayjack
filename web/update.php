@@ -8,7 +8,7 @@ session_start();
    
 <?php 
 
-include 'profilenav.php';
+include 'n.php';
 ?>
 </head>
 

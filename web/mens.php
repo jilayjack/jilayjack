@@ -261,13 +261,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div  id="top" class="callbacks_container">
 					<ul class="rslides" id="slider3">
 						<li>
-							<img class="img-responsive" src="images/carousel3.png" alt=" "/>
+			<center>				<img class="img-responsive" src="images/carousel3.png" alt=" "/></center>
 						</li>
 						<li>
-							<img class="img-responsive" src="images/d.jpg" alt=" "/>
+<center>							<img class="img-responsive" src="images/d.jpg" alt=" "/></center>
 						</li>
 						<li>
-							<img class="img-responsive" src="images/h.jpg" alt=" "/>
+							<center><img class="img-responsive" src="images/h.jpg" alt=" "/></center>
 						</li>
 
 					</ul>
@@ -279,7 +279,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<img class="img-responsive" src="images/j.jpg" alt=" " />
 				</div>
 				<div class="col-sm-8 men-wear-right">
-					<h4>Exclusive Men's <span>Collections</span></h4>
+					<h4>Exclusive Jewellery <span>Collections</span></h4>
 					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
 					accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
 					ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt

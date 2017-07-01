@@ -79,7 +79,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														</ul>
 
 
-
+ 
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -103,40 +103,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav menu__list">
-					<li class="active menu__item menu__item--current"><a class="menu__link" href="home.php">Home <span class="sr-only">(current)</span></a></li>
-					<li class=" menu__item"><a class="menu__link" href="about.php">About</a></li>
-					<li class="dropdown menu__item">
-						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jewellery <span class="caret"></span></a>
-							<ul class="dropdown-menu multi-column columns-3">
-								<div class="agile_inner_drop_nav_info">
-									<div class="col-sm-6 multi-gd-img1 multi-gd-text ">
-										<a href="mens.html"><img src="images/top2.jpg" alt=" "/></a>
-									</div>
-									<div class="col-sm-3 multi-gd-img">
-										<ul class="multi-column-dropdown">
-											<li><a href="mens.html">Clothing</a></li>
-											<li><a href="mens.html">Wallets</a></li>
-											<li><a href="mens.html">Footwear</a></li>
-											<li><a href="mens.html">Watches</a></li>
-											<li><a href="mens.html">Accessories</a></li>
-											<li><a href="mens.html">Bags</a></li>
-											<li><a href="mens.html">Caps & Hats</a></li>
-										</ul>
+					<li class="active menu__item"><a class="menu__link" href="home.php">Home <span class="sr-only">(current)</span></a></li>
+					<li class=" menu__item menu__item--current"><a class="menu__link" href="about.php">About</a></li>
+					
+					<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jwellery <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="#">Ring</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+			</ul>
+</div></div></div>					
+<ul class="nav navbar-nav navbar-right">
+        
+		<ul class="nav navbar-nav">
+		<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+           
+	</ul>					
 									</div>
 									
-					<li class=" menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
-				  </ul>
-				</div>
 			  </div>
 			</nav>	
-		</div>
-		<div class="top_nav_right">
-			<div class="wthreecartaits wthreecartaits2 cart cart box_1"> 
-						<form action="home.php" method="post" class="last"> 
-						<button class="w3view-cart" type="submit" name="btnsubmit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-					</form>  
-  
-						</div>
 		</div>
 								<?php 
 	if(isset($_POST["btnsubmit"])){

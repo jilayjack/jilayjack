@@ -28,7 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     <body  >
 <?php 
-include 'profilenav.php';
+include 'n.php';
 //include 'side.php';
 
 

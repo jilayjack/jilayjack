@@ -76,13 +76,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														</ul>
 
 
-
+<div class="clearfix"></div>
+													
 		</div>
 		<div class="clearfix"></div>
 	</div>
 </div>
 <!-- //header-bot -->
 <!-- banner -->
+
 <div class="ban-top">
 	<div class="container">
 		<div class="top_nav_left">
@@ -102,41 +104,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  <ul class="nav navbar-nav menu__list">
 					<li class="active menu__item"><a class="menu__link" href="home.php">Home <span class="sr-only">(current)</span></a></li>
 					<li class=" menu__item menu__item--current"><a class="menu__link" href="about.php">About</a></li>
-					<li class="dropdown menu__item">
-						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Men's wear <span class="caret"></span></a>
-							<ul class="dropdown-menu multi-column columns-3">
-								<div class="agile_inner_drop_nav_info">
-									<div class="col-sm-6 multi-gd-img1 multi-gd-text ">
-										<a href="mens.html"><img src="images/top2.jpg" alt=" "/></a>
-									</div>
-									<div class="col-sm-3 multi-gd-img">
-										<ul class="multi-column-dropdown">
-											<li><a href="mens.html">Clothing</a></li>
-											<li><a href="mens.html">Wallets</a></li>
-											<li><a href="mens.html">Footwear</a></li>
-											<li><a href="mens.html">Watches</a></li>
-											<li><a href="mens.html">Accessories</a></li>
-											<li><a href="mens.html">Bags</a></li>
-											<li><a href="mens.html">Caps & Hats</a></li>
-										</ul>
+					
+					<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jwellery <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="#">Ring</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+			</ul>
+</div></div></div>					
+<ul class="nav navbar-nav navbar-right">
+        
+		<ul class="nav navbar-nav">
+		<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+           
+	</ul>					
 									</div>
 									
 			  </div>
 			</nav>	
 		</div>
-		<div class="top_nav_right">
-			<div class="wthreecartaits wthreecartaits2 cart cart box_1"> 
-						<form action="#" method="post" class="last"> 
-						<input type="hidden" name="cmd" value="_cart">
-						<input type="hidden" name="display" value="1">
-						<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-					</form>  
-  
-						</div>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
+
+
 <!-- //banner-top -->
 <!-- Modal1 -->
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
@@ -179,6 +172,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														<div class="clearfix"></div>
 														<p><a href="#" data-toggle="modal" data-target="#myModal2" > Don't have an account?</a></p>
 
+                                                          <p><a href="#" data-toggle="modal" data-target="#myModal2" > Admin</a></p>
+									                    <p><a href="forget.php" data-toggle="modal" data-target="#myModal2" > Forget Password?</a></p>
+ 
+						
 						</div>
 						<div class="col-md-4 modal_body_right modal_body_right1">
 							<img src="images/log_pic.jpg" alt=" "/>
@@ -303,7 +300,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	    <div class="container">
 			<div class="agile_ab_w3ls_info">
 				<div class="col-md-6 ab_pic_w3ls">
-				   	<img src="images/ab_pic.jpg" alt=" " class="img-responsive" />
+				   	<img src="images/Screenshot_2017-07-01-15-07-04-376.jpeg" alt=" " class="img-responsive" />
 				</div>
 				 <div class="col-md-6 ab_pic_w3ls_text_info">
 				    <h5>About Our Elite <span> Shoppy</span> </h5>
@@ -315,7 +312,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="banner_bottom_agile_info_inner_w3ls">
     	           <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
 						<figure class="effect-roxy">
-							<img src="images/bottom1.jpg" alt=" " class="img-responsive" />
+							<img src="images/carousel3.png" alt=" " class="img-responsive" />
 							<figcaption>
 								<h3><span>F</span>all Ahead</h3>
 								<p>New Arrivals</p>
@@ -324,7 +321,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					 <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
 						<figure class="effect-roxy">
-							<img src="images/bottom2.jpg" alt=" " class="img-responsive" />
+							<img src="images/Screenshot_2017-07-01-15-09-39-852.jpeg" alt=" " class="img-responsive" />
 							<figcaption>
 								<h3><span>F</span>all Ahead</h3>
 								<p>New Arrivals</p>
@@ -342,10 +339,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="inner_w3l_agile_grids">
 					<div class="col-md-3 team-grids">
 						<div class="thumbnail team-w3agile">
-							<img src="images/t1.jpg" class="img-responsive" alt="">
+							<img src="images/jj.jpeg" class="img-responsive" alt="">
 							<div class="social-icons team-icons right-w3l fotw33">
 							<div class="caption">
-								<h4>Joanna Vilken</h4>
+								<h4>Jilay Shah</h4>
 								<p>Add Short Description</p>						
 							</div>
 								<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
@@ -370,7 +367,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="images/t2.jpg" class="img-responsive" alt="">
 							<div class="social-icons team-icons right-w3l fotw33">
 							<div class="caption">
-								<h4>Anika Mollik</h4>
+								<h4>Fenali Shahpura</h4>
 								<p>Add Short Description</p>						
 							</div>
 								<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
@@ -395,7 +392,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="images/t3.jpg" class="img-responsive" alt="">
 							<div class="social-icons team-icons right-w3l fotw33">
 							<div class="caption">
-								<h4>Megali Deo</h4>
+								<h4>Krisha ringwala</h4>
 								<p>Add Short Description</p>						
 							</div>
 								<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
@@ -449,7 +446,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- schedule-bottom -->
 	<div class="schedule-bottom">
 		<div class="col-md-6 agileinfo_schedule_bottom_left">
-			<img src="images/mid.jpg" alt=" " class="img-responsive" />
+			<img src="images/new.jpg" alt=" " class="img-responsive" />
 		</div>
 		<div class="col-md-6 agileits_schedule_bottom_right">
 			<div class="w3ls_schedule_bottom_right_grid">
@@ -483,10 +480,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	     <h3 class="wthree_text_info">What's <span>Trending</span></h3>
 	
 		<div class="col-md-5 bb-grids bb-left-agileits-w3layouts">
-			<a href="women.html">
+			<a href="#">
 			   <div class="bb-left-agileits-w3layouts-inner grid">
 					<figure class="effect-roxy">
-							<img src="images/bb1.jpg" alt=" " class="img-responsive" />
+							<img src="images/t3.jpg" alt=" " class="img-responsive" />
 							<figcaption>
 								<h3><span>S</span>ale </h3>
 								<p>Upto 55%</p>
@@ -498,7 +495,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="col-md-7 bb-grids bb-middle-agileits-w3layouts">
 		       <div class="bb-middle-agileits-w3layouts grid">
 			           <figure class="effect-roxy">
-							<img src="images/bottom3.jpg" alt=" " class="img-responsive" />
+							<img src="images/Screenshot_2017-07-01-15-13-34-106 (1).jpeg" alt=" " class="img-responsive" />
 							<figcaption>
 								<h3><span>S</span>ale </h3>
 								<p>Upto 55%</p>
@@ -507,7 +504,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        </div>
 		      <div class="bb-middle-agileits-w3layouts forth grid">
 						<figure class="effect-roxy">
-							<img src="images/bottom4.jpg" alt=" " class="img-responsive">
+							<img src="images/Screenshot_2017-07-01-15-12-10-293.jpeg" alt=" " class="img-responsive">
 							<figcaption>
 								<h3><span>S</span>ale </h3>
 								<p>Upto 65%</p>
@@ -518,7 +515,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
     </div>
 </div>
-<!--/grids-->
+<!--/grids
       <div class="agile_last_double_sectionw3ls">
             <div class="col-md-6 multi-gd-img multi-gd-text ">
 					<a href="womens.html"><img src="images/bot_1.jpg" alt=" "><h4>Flat <span>50%</span> offer</h4></a>
@@ -529,7 +526,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="clearfix"></div>
 	   </div>							
-<!--/grids-->
+/grids-->
 	<!-- /we-offer -->
 		<div class="sale-w3ls">
 			<div class="container">

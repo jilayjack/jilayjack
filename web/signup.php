@@ -42,7 +42,7 @@ else
       $sql="insert into user_tbl values('". $_email ."','". $_name  ."','".$_pass."','".$_cpass."','". $_add ."','". $_mno ."','". $_gen ."','". $_img ."','".$_flag."','".$_token."')";
 if($result=$conn->query($sql)===true){
     
-  error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
+  /*error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
 require_once "phpmailer/class.phpmailer.php";
 $message="newpass.php?token=".$_token."&email=".$email."";
 // creating the phpmailer object
@@ -112,10 +112,10 @@ try {
 }
 echo $msg;
 
-
+*/
 //    header("location:userlogin.php");
   
-//    header('location:userside.php');
+    header('location:userside.php');
     //echo "succesful";
 }
 else
