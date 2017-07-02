@@ -222,13 +222,8 @@ include 'usernav.php';
 				<div class="resp-tabs-container">
 					<!--/tab_one-->
 						<div class="tab1">
-							<div class="col-md-3 product-men">
-								<div class="men-pro-item simpleCart_shelfItem">
-										
-    
-    
-    
-    
+						<!--	<div class="col-md-3 product-men">
+								<div class="men-pro-item simpleCart_shelfItem">	-->
     <?php
 require 'classdemo.php';
 $obj=new database();
@@ -236,12 +231,13 @@ $result=$obj-> getproducts();
 
 while($row=$result->fetch_assoc())
 {
-
+echo '<div class="col-md-3 product-men">';
+	echo '<div class="men-pro-item simpleCart_shelfItem">';
 echo '<div class="men-thumb-item"> ';
 //echo '<div class="product-box">';
 echo '<p><a href="usrdisplay1.php?id='.$row["pk_product_id"].'">';//.'<img src=""  alt="" height="50px" width="50px" /></a></p>';
 echo '<img src="'.$row["product_image1"].'" alt="" class="pro-image-front">';
-echo '<img src="'.$row["product_image2"].'" alt="" class="pro-image-front">';
+
 echo '<div class="men-cart-pro">';
 echo '<div class="inner-men-cart-pro">';
 echo '<a href="single.html" class="link-product-add-cart">.Quick View.</a>';
@@ -266,17 +262,24 @@ echo '<div class="item-info-product ">';
 echo '<input type="submit" class="btn btn-success" name="btnsub" value="BUY">';																										
 echo '</div>';
 echo '</div>';
+echo '</div>';
+echo '</div>';
 
 }
 ?>
-</div></div>
 </div>
+<!--</div>
+</div>-->
     
     
-</div>    
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                        
 
 	<!-- //new_arrivals --> 
 	<!-- /we-offer -->
+	
 		<div class="sale-w3ls">
 			<div class="container">
 				<h6>We Offer Flat <span>40%</span> Discount</h6>
