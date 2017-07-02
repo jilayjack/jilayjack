@@ -30,13 +30,13 @@
         </div>
         <div class="main-menu">
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
-            <li ><a href="catdisplay.php"> <i class="icon-home"></i><span>Home</span></a></li>
+            <li ><a href="admin.php"> <i class="icon-home"></i><span>Home</span></a></li>
             
                <li> <a href="product.php"> <i class="icon-grid"> </i><span>Product Table                        </span></a></li>
             <li> <a href="catdisplay.php"> <i class="icon-interface-windows"></i><span>Categary Table                            </span></a></li>
             <li> <a href="usertbl.php"> <i class="icon-interface-windows"></i><span>User Table                       </span></a></li>
-           <li> <a href="catdisplay.php"> <i class="icon-interface-windows"></i><span>Cart Table                        </span></a></li>
-            <li> <a href="catdisplay.php"> <i class="icon-interface-windows"></i><span>Bill Table                        </span></a></li>
+          
+            <li> <a href="billtbl.php"> <i class="icon-interface-windows"></i><span>Bill Table                        </span></a></li>
                            <div ></div></a></li>
           </ul>
         </div>

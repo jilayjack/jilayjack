@@ -117,4 +117,60 @@ class useradmin
             useradmin::disconnect();
          } 
 }
+class billadmin
+{
+     private static $conn = null;
+        public static function connect()
+        {
+            self::$conn=mysqli_connect("localhost","root","","miniproject");
+            return self::$conn;
+         }
+         public static function disconnect()
+        {
+            self::$conn=mysqli_disconnect();
+             self::$conn=null;
+         }
+    
+        public function displaybill()
+         {
+             $conn= billadmin::connect();
+            //       echo "select u.*,p.*,b.* from product_tbl p,user_tbl u,bill_tbl b where b.fk_email_id=u.pk_email_id and b.fk_product_id=p.pk_product_id";
+            $res=$conn->query("select p.*,b.* from product_tbl p,bill_tbl b where  b.fk_product_id=p.pk_product_id");
+            return $res;
+             billadmin::disconnect();
+         }
+           public function mutideletebill($all)
+         {
+             $conn=billadmin::connect();
+                  $sql="delete from bill_tbl where pk_bill_no in ($all)";
+              $res=$conn->query($sql);
+            return $res;
+            billadmin::disconnect();
+         }  
+}
+class addadmin
+{
+     private static $conn = null;
+        public static function connect()
+        {
+            self::$conn=mysqli_connect("localhost","root","","miniproject");
+            return self::$conn;
+         }
+         public static function disconnect()
+        {
+            self::$conn=mysqli_disconnect();
+             self::$conn=null;
+         }
+         public function Insertadmin($_email,$_name,$_pass,$_mobile,$_img1)
+         {
+             $_add="abad";
+             $_gen="male";
+             $_type="admin";
+             $conn= addadmin::connect();
+            $res=$conn->query("insert into user_tbl  values('". $_email ."','". $_name ."','". $_pass ."','". $_pass ."','". $_add ."','". $_mobile ."','". $_gen ."','". $_img1 ."','". $_type ."')");
+            return $res;
+             addadmin::disconnect();
+         }
+    
+}
 ?>
