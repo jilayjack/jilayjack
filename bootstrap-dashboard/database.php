@@ -16,7 +16,14 @@ class productadmin
         public function displayproduct()
          {
              $conn= productadmin::connect();
-            $res=$conn->query("select * from product_tbl");
+            $res=$conn->query("select c.*,p.* from product_tbl p,cat_tbl c where c.pk_cat_id=p.fk_cat_id");
+            return $res;
+             productadmin::disconnect();
+         }
+          public function displayproductimg($_id)
+         {
+             $conn= productadmin::connect();
+            $res=$conn->query("select c.*,p.* from product_tbl p,cat_tbl c where c.pk_cat_id=p.fk_cat_id and pk_product_id='". $_id ."'");
             return $res;
              productadmin::disconnect();
          }
@@ -53,6 +60,7 @@ class productadmin
             return $res;
             pk_product_id::disconnect();
          } 
+         
             public function UpdateProduct1($_pid,$_name,$_price,$_menuf,$_color,$_pimg1,$_pimg2,$_pimg3,$_warr,$_soh,$_desc,$_cat)
          {
              $conn=productadmin::connect();
@@ -76,5 +84,37 @@ class productadmin
             productadmin::disconnect();
          }  
         
+}
+class useradmin
+{
+ private static $conn = null;
+        public static function connect()
+        {
+            self::$conn=mysqli_connect("localhost","root","","miniproject");
+            return self::$conn;
+         }
+         public static function disconnect()
+        {
+            self::$conn=mysqli_disconnect();
+             self::$conn=null;
+         }
+    
+        public function displayuser()
+         {
+             $conn= useradmin::connect();
+            $res=$conn->query("select * from user_tbl");
+            return $res;
+             useradmin::disconnect();
+         }
+             public function Deleteuser($_id)
+         {
+             $conn=useradmin::connect();
+             $result=$conn->query("select * from user_tbl where pk_email_id='". $_id ."'");
+             $row=$result->fetch_assoc();
+            unlink($row["user_profile_pic"]);
+             $res=$conn->query("delete from user_tbl where pk_email_id='". $_id ."'");
+            return $res;
+            useradmin::disconnect();
+         } 
 }
 ?>

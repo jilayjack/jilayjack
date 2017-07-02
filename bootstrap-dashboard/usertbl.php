@@ -40,36 +40,36 @@ include 'side.php';
 </head>
 <body>
 <form action="mutidel.php" method="post">
-
 <table class="table">
 <thead>
-<th>delete</th>
-<th>Product Name</th>
-<th>Product_price</th>
-
-<th>Producat_image</th>
+    <th>delete</th>
+<th>email id</th>
+<th>name </th>
+<th>address </th>
+<th>mobile no </th>
+<th>gender </th>
+<th> image</th>
 <th>Action</th>
 
 </thead>
 <?php 
 require 'database.php';
-      $obj=new productadmin;
-       $result=$obj->displayproduct();
+      $obj=new useradmin;
+       $result=$obj->displayuser();
 if($result->num_rows>0){
     while($row =$result->fetch_assoc())
     {
        echo '<tr>';
-       echo '<td>' ?> <input type="checkbox" name="chk[]" value="<?php echo $row["pk_product_id"]; ?>"><?php '</td>';
-       echo '<td>'. $row["product_name"].'</td>';
-         echo '<td>'. $row["product_prize"]. '</td>';
-       //echo '<td> <img src="'.$row["product_image1"].'"> </td>';
+       echo '<td>' ?> <input type="checkbox" name="chk[]" value="<?php echo $row["pk_email_id"]; ?>"><?php '</td>';
+       echo '<td>'. $row["pk_email_id"].'</td>';
+       echo '<td>'. $row["uname"].'</td>';
+         echo '<td>'. $row["user_address"]. '</td>';
+         echo '<td>'. $row["user_mobile_no"].'</td>';
+         echo '<td>'. $row["user_gender"].'</td>';
+             //echo '<td> <img src="'.$row["product_image1"].'"> </td>';
       
-     echo  '<td>'?> <img src="<?php echo $row["product_image1"];?>" height="100" width="100"><?php echo '</td>';
-      
-       echo '<td><a href="slide/viewmore1.php?id='.$row["pk_product_id"].'"> view more<span class="glyphicon glyphicon-pencil "></span></a>|
-       <a href="productdel.php?id='.$row["pk_product_id"].'">delete<span class="glyphicon glyphicon-trash "></span> </a>|
-       <a href="productupdate.php?id='.$row["pk_product_id"].'"> Update<span class="glyphicon glyphicon-pencil "></span></a> </td>';
-   
+     echo  '<td>'?> <img src="<?php echo $row["user_profile_pic"];?>" height="100" width="100"><?php echo '</td>';
+     echo '<td><a href="userdelete.php?id='.$row["pk_email_id"].'">delete<span class="glyphicon glyphicon-trash "></span> </a></td>';
       echo '</tr>';  
     }
 }
