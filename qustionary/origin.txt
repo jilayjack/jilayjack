@@ -1,0 +1,812 @@
+Uri: http://wordpressqa.com/instant-qa/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/style.css
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\style.css
+Content Type: text/css
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/blue-meadow-styles.css
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\blue-meadow-styles.css
+Content Type: text/css
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.13
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\plugins\add-to-any\addtoany.min.css
+Content Type: text/css
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\index.htm
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/xmlrpc.php?rsd
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\xmlrpc.xml
+Content Type: text/xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-includes/wlwmanifest.xml
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-includes\wlwmanifest.xml
+Content Type: application/xml
+
+Uri: http://wordpressqa.com/instant-qa/about/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\about\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/sign-up/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\sign-up\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/log-in/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\log-in\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/activities/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\activities\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/beaches/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\beaches\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/car-rentals/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\car-rentals\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/cruises/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\cruises\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/deals/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\deals\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/deals/last-min-deals/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\deals\last-min-deals\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/flights/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\flights\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/hotels/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\hotels\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/beaches/look-of-the-site/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\beaches\look-of-the-site\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/profile/demouser/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\profile\demouser\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/car-rentals/hiii/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\car-rentals\hiii\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/activities/how-to-test/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\activities\how-to-test\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/beaches/change-the-design-it-is-fucking-boring/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\beaches\change-the-design-it-is-fucking-boring\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/beaches/yaa-waye-qofka-jecely-goroob/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\beaches\yaa-waye-qofka-jecely-goroob\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/hotels/vegas/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\hotels\vegas\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/profile/surferlady/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\profile\surferlady\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/beaches/best-rides/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\beaches\best-rides\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/car-rentals/car-insurance/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\car-rentals\car-insurance\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/profile/travelguru/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\profile\travelguru\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/activities/miami-activities/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\activities\miami-activities\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/profile/inflightchica/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\profile\inflightchica\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/beaches/less-crowded-beaches/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\beaches\less-crowded-beaches\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/page/2/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\page\2\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/wp-includes/js/jquery/jquery.js?ver=1.12.4
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-includes\js\jquery\jquery.js
+Content Type: application/javascript
+
+Uri: http://wordpressqa.com/instant-qa/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\plugins\add-to-any\addtoany.min.js
+Content Type: application/javascript
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/js/tab-widget.js
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\js\tab-widget.js
+Content Type: application/javascript
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/home-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\home-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/about-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\about-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/signup-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\signup-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/login-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\login-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/uploads/2010/06/travel-info-logo.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\uploads\2010\06\travel-info-logo.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/uploads/2010/06/theme-forest-160x600-banner.gif
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\uploads\2010\06\theme-forest-160x600-banner.gif
+Content Type: image/gif
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/submit-search.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\submit-search.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/clock-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\clock-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/big-grey-star-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\big-grey-star-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/num-answer-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\num-answer-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/blue-star-points-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\blue-star-points-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/grey-star-points-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\grey-star-points-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/green-star-points-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\green-star-points-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/grey-star-big.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\grey-star-big.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/green-star-big.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\green-star-big.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/blue-star-big.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\blue-star-big.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/orange-star-big.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\orange-star-big.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/orange-star-points-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\orange-star-points-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/red-star-big.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\red-star-big.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/red-star-points-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\red-star-points-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/black-star-big.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\black-star-big.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/black-star-points-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\black-star-points-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/uploads/2010/06/gr_125x125_v4.gif
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\uploads\2010\06\gr_125x125_v4.gif
+Content Type: image/gif
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/uploads/2010/06/tf_125x125_v5.gif
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\uploads\2010\06\tf_125x125_v5.gif
+Content Type: image/gif
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/uploads/2010/06/cc_728x90_v3.gif
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\uploads\2010\06\cc_728x90_v3.gif
+Content Type: image/gif
+
+Uri: http://wordpressqa.com/instant-qa/wp-includes/js/wp-embed.min.js?ver=4.7.5
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-includes\js\wp-embed.min.js
+Content Type: application/javascript
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/page-bg-pattern.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\page-bg-pattern.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/header-bg-pattern.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\header-bg-pattern.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/top-nav-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\top-nav-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/top-nav-hover-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\top-nav-hover-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/main-bg-pattern.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\main-bg-pattern.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/search-input-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\search-input-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/search-box-back-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\search-box-back-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/search-box-front-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\search-box-front-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/grey-nav-arrow.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\grey-nav-arrow.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/grey-tab-left.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\grey-tab-left.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/white-tab-on-left.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\white-tab-on-left.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/grey-tab-right.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\grey-tab-right.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/white-tab-on-right.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\white-tab-on-right.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/questions-icon-big.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\questions-icon-big.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/comments-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\comments-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/members-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\members-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/white-btn.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\white-btn.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/signup-btn-left.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\signup-btn-left.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/footer-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\footer-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/bottom-nav-hover-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\bottom-nav-hover-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/page-bg-pattern.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\page-bg-pattern.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/header-bg-pattern.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\header-bg-pattern.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/top-nav-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\top-nav-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/main-bg-pattern.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\main-bg-pattern.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/search-input-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\search-input-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/search-box-back-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\search-box-back-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/search-box-front-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\search-box-front-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/grey-tab-left.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\grey-tab-left.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/white-tab-on-left.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\white-tab-on-left.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/grey-tab-right.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\grey-tab-right.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/white-tab-on-right.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\white-tab-on-right.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/footer-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\footer-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/color-schemes/blue-meadow/images/bottom-nav-hover-bg.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\color-schemes\blue-meadow\images\bottom-nav-hover-bg.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/about/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\about\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fabout%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fabout%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-1
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/sign-up/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\sign-up\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fsign-up%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-2
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fsign-up%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-3
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/signup-image.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\signup-image.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/signup-now-btn.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\signup-now-btn.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/log-in/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\log-in\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Flog-in%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-4
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Flog-in%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-5
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/forgot-password/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\forgot-password\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/login-image.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\login-image.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/login-now-btn.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\login-now-btn.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/category/activities/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\activities\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/category/beaches/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\beaches\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/category/car-rentals/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\car-rentals\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/car-rentals/cheapest-car-rental-company/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\car-rentals\cheapest-car-rental-company\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/cruises/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\cruises\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/cruises/cheap-cruise/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\cruises\cheap-cruise\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/cruises/world-cruise/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\cruises\world-cruise\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/deals/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\deals\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/deals/europe-vacation/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\deals\europe-vacation\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/profile/mrtravel/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\profile\mrtravel\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/deals/weekend-getaway/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\deals\weekend-getaway\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/deals/chicago-deals/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\deals\chicago-deals\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/deals/last-min-deals/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\deals\last-min-deals\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/category/flights/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\flights\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/flights/carry-on-bags/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\flights\carry-on-bags\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/flights/leg-room/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\flights\leg-room\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/category/hotels/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\category\hotels\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/hotels/frequent-visitor/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\hotels\frequent-visitor\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/plugins/add-to-any/favicon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\plugins\add-to-any\favicon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/beaches/look-of-the-site/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\beaches\look-of-the-site\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fbeaches%2Flook-of-the-site%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-6
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fbeaches%2Flook-of-the-site%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-7
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/profile/demouser/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\profile\demouser\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/question-icon.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\question-icon.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/answer-icon2.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\answer-icon2.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/car-rentals/hiii/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\car-rentals\hiii\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fhiii%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-8
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fhiii%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-9
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/activities/how-to-test/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\activities\how-to-test\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Factivities%2Fhow-to-test%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-10
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Factivities%2Fhow-to-test%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-11
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/tag/how/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\tag\how\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/tag/question/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\tag\question\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/tag/test/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\tag\test\index.htm
+Content Type: text/html
+
+Uri: http://wordpressqa.com/instant-qa/beaches/change-the-design-it-is-fucking-boring/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\beaches\change-the-design-it-is-fucking-boring\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fbeaches%2Fchange-the-design-it-is-fucking-boring%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-12
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fbeaches%2Fchange-the-design-it-is-fucking-boring%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-13
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/beaches/yaa-waye-qofka-jecely-goroob/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\beaches\yaa-waye-qofka-jecely-goroob\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fbeaches%2Fyaa-waye-qofka-jecely-goroob%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-14
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fbeaches%2Fyaa-waye-qofka-jecely-goroob%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-15
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/hotels/vegas/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\hotels\vegas\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fhotels%2Fvegas%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-16
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fhotels%2Fvegas%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-17
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/profile/surferlady/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\profile\surferlady\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/beaches/best-rides/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\beaches\best-rides\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fbeaches%2Fbest-rides%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-18
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fbeaches%2Fbest-rides%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-19
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/car-rentals/car-insurance/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\car-rentals\car-insurance\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fcar-insurance%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-20
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fcar-insurance%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-21
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/profile/travelguru/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\profile\travelguru\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/activities/miami-activities/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\activities\miami-activities\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Factivities%2Fmiami-activities%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-22
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Factivities%2Fmiami-activities%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-23
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/profile/inflightchica/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\profile\inflightchica\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/beaches/less-crowded-beaches/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\beaches\less-crowded-beaches\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fbeaches%2Fless-crowded-beaches%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-24
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fbeaches%2Fless-crowded-beaches%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-25
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/forgot-password/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\forgot-password\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fforgot-password%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-26
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fforgot-password%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-27
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-content/themes/instant-qa/images/reset-password-btn.png
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-content\themes\instant-qa\images\reset-password-btn.png
+Content Type: image/png
+
+Uri: http://wordpressqa.com/instant-qa/car-rentals/cheapest-car-rental-company/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\car-rentals\cheapest-car-rental-company\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fcheapest-car-rental-company%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-28
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fcheapest-car-rental-company%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-29
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/cruises/cheap-cruise/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\cruises\cheap-cruise\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fcruises%2Fcheap-cruise%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-30
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fcruises%2Fcheap-cruise%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-31
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/cruises/world-cruise/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\cruises\world-cruise\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fcruises%2Fworld-cruise%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-32
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fcruises%2Fworld-cruise%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-33
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/deals/europe-vacation/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\deals\europe-vacation\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fdeals%2Feurope-vacation%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-34
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fdeals%2Feurope-vacation%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-35
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/profile/mrtravel/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\profile\mrtravel\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/deals/weekend-getaway/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\deals\weekend-getaway\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fdeals%2Fweekend-getaway%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-36
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fdeals%2Fweekend-getaway%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-37
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/deals/chicago-deals/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\deals\chicago-deals\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fdeals%2Fchicago-deals%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-38
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fdeals%2Fchicago-deals%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-39
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/flights/carry-on-bags/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\flights\carry-on-bags\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fflights%2Fcarry-on-bags%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-40
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fflights%2Fcarry-on-bags%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-41
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/flights/leg-room/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\flights\leg-room\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fflights%2Fleg-room%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-42
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fflights%2Fleg-room%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-43
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/hotels/frequent-visitor/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\hotels\frequent-visitor\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fhotels%2Ffrequent-visitor%2F
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-44
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/wp-json/oembed/1.0/embed?url=http:%2F%2Fwordpressqa.com%2Finstant-qa%2Fhotels%2Ffrequent-visitor%2F&
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\wp-json\oembed\1.0\embed-45
+Content Type: application/json
+
+Uri: http://wordpressqa.com/instant-qa/tag/how/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\tag\how\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/tag/question/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\tag\question\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: http://wordpressqa.com/instant-qa/tag/test/feed/
+File Name: C:\Downloaded Web Sites\New folder\wordpressqa.com\instant-qa\tag\test\feed\index.htm
+Content Type: application/rss+xml
+
