@@ -1,6 +1,6 @@
 ﻿
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html >
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -60,47 +60,51 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
     	<div id="headerContent">
             <div id="topNav" class="right">
                 <ul>
-                    <li id="homeTab"><a href="http://wordpressqa.com/instant-qa"><img src="wp-content\themes\instant-qa\images\home-icon.png" alt="Home">Home</a></li>
-                    <li id="aboutTab"><a href="about\index.htm"><img src="wp-content\themes\instant-qa\images\about-icon.png" alt="About">About</a></li>
-                                        <li id="signupTab"><a href="sign-up\index.htm"><img src="wp-content\themes\instant-qa\images\signup-icon.png" alt="Sign Up Now">Sign Up Now</a></li>
-                    <li id="loginTab"><a href="log-in\index.htm"><img src="wp-content\themes\instant-qa\images\login-icon.png" alt="Log In">Log In</a></li>
+                    <li id="homeTab"><a href="wordpressqa.com/instant-qa/home.php"><img src="wp-content\themes\instant-qa\images\home-icon.png" alt="Home">Home</a></li>
+                    <li id="aboutTab"><a href="about\about.php"><img src="wp-content\themes\instant-qa\images\about-icon.png" alt="About">About</a></li>
+                                        <li id="signupTab"><a href="sign-up\signup.php"><img src="wp-content\themes\instant-qa\images\signup-icon.png" alt="Sign Up Now">Sign Up Now</a></li>
+                    <li id="loginTab"><a href="log-in\login.php"><img src="wp-content\themes\instant-qa\images\login-icon.png" alt="Log In">Log In</a></li>
 					                </ul>
             </div>  
             
                         	<!-- Image Based Logo -->	
-            	<h1 id="logoImage"><a href="http://wordpressqa.com/instant-qa" title="Instant Q&amp;A"><img src="wp-content\uploads\2010\06\travel-info-logo.png" alt="Instant Q&amp;A"></a></h1>           	
+            	<h1 id="logoImage"><a href="http://wordpressqa.com/instant-qa" title="Instant Q&amp;A">
+                <br><br><font size="25" color="green">Ask Me Anytime</font>
+                <!--<img src="wp-content\uploads\2010\06\travel-info-logo.png" alt="Instant Q&amp;A"></a>-->
+                
+                </h1>           	
 			        </div>
     	<div class="clear"></div>
     </div>
     <!-- / Header Section -->
 
 	<!-- Main Section -->
-    <div id="main">
+        <div id="main">
     	<div id="mainContent">
         
            		<!-- Left Column -->
     <div id="leftCol" class="left">
-        <h3>Q&amp;A Categories</h3>
+        <h3>Subjects</h3>
         <div class="siteCategories greyBox">
             <div class="greyBoxInner">
                 <ul>
-                    	<li class="cat-item cat-item-7"><a href="category\activities\index.htm">Activities</a>
+                    	<li class="cat-item cat-item-7"><a href="category\activities\index.htm">C++</a>
 </li>
-	<li class="cat-item cat-item-9"><a href="category\beaches\index.htm">Beaches</a>
+	<li class="cat-item cat-item-9"><a href="category\beaches\index.htm">Java</a>
 </li>
-	<li class="cat-item cat-item-4"><a href="category\car-rentals\index.htm">Car Rentals</a>
+	<li class="cat-item cat-item-4"><a href="category\car-rentals\index.htm">C</a>
 </li>
 	<li class="cat-item cat-item-6"><a href="category\cruises\index.htm">Cruises</a>
 </li>
-	<li class="cat-item cat-item-8"><a href="category\deals\index.htm">Deals</a>
-<ul class='children'>
+	<li class="cat-item cat-item-8"><a href="category\deals\index.htm">Php</a>
+<!--<ul class='children'>
 	<li class="cat-item cat-item-10"><a href="category\deals\last-min-deals\index.htm">Last Min Deals</a>
 </li>
 </ul>
 </li>
 	<li class="cat-item cat-item-5"><a href="category\flights\index.htm">Flights</a>
-</li>
-	<li class="cat-item cat-item-3"><a href="category\hotels\index.htm">Hotels</a>
+</li>-->
+	<li class="cat-item cat-item-3"><a href="category\hotels\index.htm">other subject</a>
 </li>
                 </ul>
             </div>
@@ -117,6 +121,9 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 
    
             
+
+   
+            
             <!-- Center Column -->
             <div id="centerCol" class="left">
             	
@@ -128,8 +135,9 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                     <!-- Navigation Tabs -->
                     <div id="wTabs1">
                         <ul>
-                            <li class="on"><a href="javascript:showWidget(0,1)"><img src="wp-content\themes\instant-qa\images\clock-icon.png" alt="Clock">Recent Questions</a></li>
-                            <li><a href="javascript:showWidget(1,1)"><img src="wp-content\themes\instant-qa\images\big-grey-star-icon.png" alt="Star">Popular Questions</a></li>
+                            <li class="on"><a href="javascript:showWidget(0,1)">Recent question</a></li>
+                            <li><a href="javascript:showWidget(1,1)">Popular question</a></li>
+                            <li><a href="javascript:showWidget(2,1)">ask question</a></li>
                         </ul>
                     </div>
                     <div class="reset"></div>
@@ -462,8 +470,56 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                             </div>
                         </div>
                         <!-- Popular Questions -->
+<!-- ask Questions -->
+                        <div class="wContentBox" style="display:none;">
+                        	<div class="greyBox2">
+                                <div class="greyBoxInner2">
+                                      <h2 class="questionTitle">your question</h2>
+                                      <form action="" method="post">
+                                     <center><div class="form-group">
+                                    <div class="question">                                                                                
+                                    <div class="row"> 
+                                    <div class="col-md-3"><b><br>Title</b></div>
+                                    <div class="col-md-9"> <input type="text" name="txttitle" class="form-control"></div>
+                                       </div>
+                                    </div>
+                                    <div class="question">  
+                                      <div class="row"> 
+                                    <div class="col-md-3"><b><br>  question </b></div>
+                                    <div class="col-md-9"> <textarea class="form-control" name="txtque">  </textarea>
+                                      </div>
+                                    </div>
+                                    </div>
+                                     <div class="question"><div class="row"> 
+                                    <div class="col-md-3"><b><br> image  </b></div>
+                                    <div class="col-md-9"><input type="file" name="txtimage" class="form-control">
+                                    </div>
+                                      </div>
+                                    </div>
+                                     <div class="question">                                                                                
+                                     <div class="row"> 
+                                    <div class="col-md-3"><b><br> date </b></div>
+                                    <div class="col-md-9"><input type="text" name="txtdate" class="form-control">
+                                    </div>
+                                    </div>
+                                    </div>
+                                     <div class="question"><div class="row"> 
+                                    <div class="col-md-3"><b><br>subject </b></div>
+                                    <div class="col-md-9"> <input type="text" name="txtsub" class="form-control">
+                                    </div>
+                                   
+                                   
+                                    </div>
+                 <!--<center>          <div class="whiteBtn marTop10" align="center"><a href="log-in/login.php"><span>Submit &raquo;</span></a></div></center>
+                     -->
 
+                           </div></div>
+                <input type="submit" class="btn btn-success" name="Submit" value="Submit">      
+                     
+                                   </form>
+                                    </div></div></div>
                     </div>
+                    
                     <!-- Tabs Content Blocks -->
                     <div class="reset"></div>
                 </div>

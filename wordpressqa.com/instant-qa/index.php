@@ -3,11 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<script src="share/js/jquery-3.2.1.min.js"></script>
+<!-- latest complied and minified css-->
+<link rel="stylesheet" href="share/css/bootstrap.min.css">
+<!--optional theme-->
+<link rel="stylesheet" href="share/css/bootstrap-theme.min.css">
+<!-- latest complied and minified javascript-->
+<script src="share/js/bootstrap.min.js"></script>
 <title> Instant Q&amp;A</title>
 <link rel="stylesheet" type="text/css" href="wp-content\themes\instant-qa\style.css"> 
 <link rel="stylesheet" type="text/css" href="wp-content\themes\instant-qa\color-schemes\blue-meadow\blue-meadow-styles.css"> 
-<!--<link rel="pingback" href="http://wordpressqa.com/instant-qa/xmlrpc.php">-->
+<link rel="pingback" href="http://wordpressqa.com/instant-qa/xmlrpc.php">
 <link rel='dns-prefetch' href='//s.w.org'>
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/wordpressqa.com\/instant-qa\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
@@ -61,6 +67,16 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
             <div id="topNav" class="right">
                 <ul>
                     <li id="homeTab"><a href="http://wordpressqa.com/instant-qa"><img src="wp-content\themes\instant-qa\images\home-icon.png" alt="Home">Home</a></li>
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Profile<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="login.php">View profile</a></li>
+            <li><a href="signup1.php">Edit profile</a></li>
+            <li><a href="login.php">change password</a></li>
+            <li><a href="signup1.php">view password</a></li>
+
+               </ul>
+        </li>
                     <li id="aboutTab"><a href="about\index.htm"><img src="wp-content\themes\instant-qa\images\about-icon.png" alt="About">About</a></li>
                                         <li id="signupTab"><a href="sign-up\index.htm"><img src="wp-content\themes\instant-qa\images\signup-icon.png" alt="Sign Up Now">Sign Up Now</a></li>
                     <li id="loginTab"><a href="log-in\index.htm"><img src="wp-content\themes\instant-qa\images\login-icon.png" alt="Log In">Log In</a></li>
@@ -68,7 +84,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
             </div>  
             
                         	<!-- Image Based Logo -->	
-            	<h1 id="logoImage"><a href="http://wordpressqa.com/instant-qa" title="Instant Q&amp;A"><img src="wp-content\uploads\2010\06\travel-info-logo.png" alt="Instant Q&amp;A"></a></h1>           	
+            	<!--<h1 id="logoImage"><a href="http://wordpressqa.com/instant-qa" title="Instant Q&amp;A"><img src="wp-content\uploads\2010\06\travel-info-logo.png" alt="Instant Q&amp;A"></a></h1>           	-->
 			        </div>
     	<div class="clear"></div>
     </div>
@@ -80,27 +96,27 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
         
            		<!-- Left Column -->
     <div id="leftCol" class="left">
-        <h3>Q&amp;A Categories</h3>
+        <h3>Subjects</h3>
         <div class="siteCategories greyBox">
             <div class="greyBoxInner">
                 <ul>
-                    	<li class="cat-item cat-item-7"><a href="category\activities\index.htm">Activities</a>
+                    	<li class="cat-item cat-item-7"><a href="category\activities\index.htm">C++</a>
 </li>
-	<li class="cat-item cat-item-9"><a href="category\beaches\index.htm">Beaches</a>
+	<li class="cat-item cat-item-9"><a href="category\beaches\index.htm">Java</a>
 </li>
-	<li class="cat-item cat-item-4"><a href="category\car-rentals\index.htm">Car Rentals</a>
+	<li class="cat-item cat-item-4"><a href="category\car-rentals\index.htm">C</a>
 </li>
 	<li class="cat-item cat-item-6"><a href="category\cruises\index.htm">Cruises</a>
 </li>
-	<li class="cat-item cat-item-8"><a href="category\deals\index.htm">Deals</a>
-<ul class='children'>
+	<li class="cat-item cat-item-8"><a href="category\deals\index.htm">Php</a>
+<!--<ul class='children'>
 	<li class="cat-item cat-item-10"><a href="category\deals\last-min-deals\index.htm">Last Min Deals</a>
 </li>
 </ul>
 </li>
 	<li class="cat-item cat-item-5"><a href="category\flights\index.htm">Flights</a>
-</li>
-	<li class="cat-item cat-item-3"><a href="category\hotels\index.htm">Hotels</a>
+</li>-->
+	<li class="cat-item cat-item-3"><a href="category\hotels\index.htm">other subject</a>
 </li>
                 </ul>
             </div>
@@ -128,8 +144,9 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                     <!-- Navigation Tabs -->
                     <div id="wTabs1">
                         <ul>
-                            <li class="on"><a href="javascript:showWidget(0,1)"><img src="wp-content\themes\instant-qa\images\clock-icon.png" alt="Clock">Recent Questions</a></li>
-                            <li><a href="javascript:showWidget(1,1)"><img src="wp-content\themes\instant-qa\images\big-grey-star-icon.png" alt="Star">Popular Questions</a></li>
+                            <li class="on"><a href="javascript:showWidget(0,1)">Recent question</a></li>
+                            <li><a href="javascript:showWidget(1,1)">Popular question</a></li>
+                            <li><a href="javascript:showWidget(2,1)">ask question</a></li>
                         </ul>
                     </div>
                     <div class="reset"></div>
@@ -148,20 +165,20 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 										                                        <!-- Question -->
                                         <div class="question">
                                             <div class="left">
-												                                                <a href="http://wordpressqa.com/instant-qa/profile/demouser"><img alt='' src='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&#038;r=g' srcset='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
+												                                              <a href="http://wordpressqa.com/instant-qa/profile/demouser"><img alt='' src='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&#038;r=g' srcset='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
                                             </div>
                                             <div class="left questionMain">
                                             	
-                                                <h4><a href="beaches\look-of-the-site\index.htm">Look of the site</a></h4>
+                                               <h4><a href="beaches\look-of-the-site\index.htm">Look of the site</a></h4>
                                                                                                
                                                 <p>Can the look be changed</p>                         
                                                 <div class="questionByline">
                                                     <a href="beaches\look-of-the-site\index.htm#respond"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="beaches\look-of-the-site\index.htm#respond">No Answers</a></span>
-                                                    <span>In: <a href="category\beaches\index.htm" rel="category tag">Beaches</a></span>
-                                                    <span>By: <a href="profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>
-                                                 
-                                                    <span class="points">[<span>67</span> <img src="wp-content\themes\instant-qa\images\blue-star-points-icon.png" alt="Blue Star Level" title="Blue Star Level">]</span>
+                                                    <span class="answers"><a href="beaches\look-of-the-site\index.htm#respond">view Answer</a></span>
+                                                      <span class="answers"><a href="beaches\look-of-the-site\index.htm#respond">Post Answer</a></span>
+                                                    <!--<span>In: <a href="category\beaches\index.htm" rel="category tag">Beaches</a></span>
+                                                    <span>By: <a href="profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>-->
+                                                     <span class="points">[<span>67</span> <img src="wp-content\themes\instant-qa\images\blue-star-points-icon.png" alt="Blue Star Level" title="Blue Star Level">]</span>
                                                     <span>Jun 26, 2017</span>
                                                 </div>
                                             </div>
@@ -181,9 +198,10 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                                 <p>hi test</p>                         
                                                 <div class="questionByline">
                                                     <a href="car-rentals\hiii\index.htm#comments"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="car-rentals\hiii\index.htm#comments">1 Answer</a></span>
-                                                    <span>In: <a href="category\car-rentals\index.htm" rel="category tag">Car Rentals</a></span>
-                                                    <span>By: <a href="profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>
+                                                    <span class="answers"><a href="car-rentals\hiii\viewans.php">View Answer</a></span>
+                                                    <span class="answers"><a href="car-rentals\hiii\postans.php">Post Answer</a></span>
+                                                  <!--  <span>In: <a href="category\car-rentals\index.htm" rel="category tag">Car Rentals</a></span>
+                                                    <span>By: <a href="profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>-->
                                                  
                                                     <span class="points">[<span>67</span> <img src="wp-content\themes\instant-qa\images\blue-star-points-icon.png" alt="Blue Star Level" title="Blue Star Level">]</span>
                                                     <span>Jun 15, 2017</span>
@@ -205,9 +223,10 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                                 <p>how to test it</p>                         
                                                 <div class="questionByline">
                                                     <a href="activities\how-to-test\index.htm#respond"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="activities\how-to-test\index.htm#respond">No Answers</a></span>
-                                                    <span>In: <a href="category\activities\index.htm" rel="category tag">Activities</a></span>
-                                                    <span>By: <a href="profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>
+                                                    <span class="answers"><a href="activities\how-to-test\index.htm#respond">view Answers</a></span>
+                                                     <span class="answers"><a href="activities\how-to-test\index.htm#respond">post Answers</a></span>
+                                                <!--<span>In: <a href="category\activities\index.htm" rel="category tag">Activities</a></span>
+                                                    <span>By: <a href="profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>-->
                                                  
                                                     <span class="points">[<span>67</span> <img src="wp-content\themes\instant-qa\images\blue-star-points-icon.png" alt="Blue Star Level" title="Blue Star Level">]</span>
                                                     <span>May 23, 2017</span>
@@ -229,9 +248,10 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                                 <p>change this fucking design, make it more like quora or ask you fucking stupids.</p>                         
                                                 <div class="questionByline">
                                                     <a href="beaches\change-the-design-it-is-fucking-boring\index.htm#comments"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="beaches\change-the-design-it-is-fucking-boring\index.htm#comments">4 Answers</a></span>
-                                                    <span>In: <a href="category\beaches\index.htm" rel="category tag">Beaches</a></span>
-                                                    <span>By: <a href="profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>
+                                                    <span class="answers"><a href="beaches\change-the-design-it-is-fucking-boring\index.htm#comments">view Answers</a></span>
+                                                    <span class="answers"><a href="beaches\change-the-design-it-is-fucking-boring\index.htm#comments">Post Answers</a></span>
+                                                  <!--  <span>In: <a href="category\beaches\index.htm" rel="category tag">Beaches</a></span>
+                                                    <span>By: <a href="profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>-->
                                                  
                                                     <span class="points">[<span>67</span> <img src="wp-content\themes\instant-qa\images\blue-star-points-icon.png" alt="Blue Star Level" title="Blue Star Level">]</span>
                                                     <span>May 17, 2017</span>
@@ -241,7 +261,34 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                             <div class="clear"></div>
                                         </div>
                                         <!-- / Question -->
-                                                                                <!-- Question -->
+                                                                     <!-- Question -->
+                                        <div class="question">
+                                            <div class="left">
+												                                                <a href="http://wordpressqa.com/instant-qa/profile/surferlady"><img alt='' src='http://2.gravatar.com/avatar/5c08d18d8cfedb62753283cda09c2baa?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-5.jpg&#038;r=g' srcset='http://2.gravatar.com/avatar/5c08d18d8cfedb62753283cda09c2baa?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-5.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
+                                            </div>
+                                            <div class="left questionMain">
+                                            	
+                                                <h4><a href="hotels\vegas\index.htm">Vegas</a></h4>
+                                                                                               
+                                                <p>What is the best hotel to stay in Vegas? I have about $200 a night to spend. 
+
+</p>                         
+                                                <div class="questionByline">
+                                                    <a href="hotels\vegas\index.htm#comments"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
+                                                    <span class="answers"><a href="hotels\vegas\index.htm#comments">View Answers</a></span>
+                                                     <span class="answers"><a href="hotels\vegas\index.htm#comments">post Answers</a></span>
+                                                    <!--<span>In: <a href="category\hotels\index.htm" rel="category tag">Hotels</a></span>
+                                                    <span>By: <a href="profile\surferlady\index.htm" title="Posts by Surferlady" rel="author">Surferlady</a></span>-->
+                                                 
+                                                    <span class="points">[<span>5</span> <img src="wp-content\themes\instant-qa\images\grey-star-points-icon.png" alt="Grey Star Level" title="Grey Star Level">]</span>
+                                                    <span>Sep 13, 2013</span>
+                                                </div>
+                                            </div>
+                                             
+                                            <div class="clear"></div>
+                                        </div>
+                                        <!-- / Question -->
+                                                                 <!--  Question -->
                                         <div class="question">
                                             <div class="left">
 												                                                <a href="http://wordpressqa.com/instant-qa/profile/demouser"><img alt='' src='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&#038;r=g' srcset='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
@@ -263,35 +310,9 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                             </div>
                                              
                                             <div class="clear"></div>
-                                        </div>
-                                        <!-- / Question -->
-                                                                                <!-- Question -->
-                                        <div class="question">
-                                            <div class="left">
-												                                                <a href="http://wordpressqa.com/instant-qa/profile/surferlady"><img alt='' src='http://2.gravatar.com/avatar/5c08d18d8cfedb62753283cda09c2baa?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-5.jpg&#038;r=g' srcset='http://2.gravatar.com/avatar/5c08d18d8cfedb62753283cda09c2baa?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-5.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
-                                            </div>
-                                            <div class="left questionMain">
-                                            	
-                                                <h4><a href="hotels\vegas\index.htm">Vegas</a></h4>
-                                                                                               
-                                                <p>What is the best hotel to stay in Vegas? I have about $200 a night to spend. 
-
-</p>                         
-                                                <div class="questionByline">
-                                                    <a href="hotels\vegas\index.htm#comments"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="hotels\vegas\index.htm#comments">7 Answers</a></span>
-                                                    <span>In: <a href="category\hotels\index.htm" rel="category tag">Hotels</a></span>
-                                                    <span>By: <a href="profile\surferlady\index.htm" title="Posts by Surferlady" rel="author">Surferlady</a></span>
-                                                 
-                                                    <span class="points">[<span>5</span> <img src="wp-content\themes\instant-qa\images\grey-star-points-icon.png" alt="Grey Star Level" title="Grey Star Level">]</span>
-                                                    <span>Sep 13, 2013</span>
-                                                </div>
-                                            </div>
-                                             
-                                            <div class="clear"></div>
-                                        </div>
-                                        <!-- / Question -->
-                                                                                <!-- Question -->
+                                        </div> 
+                                       <!-- / quetion -->
+                                                                                <!-- extra Question1 
                                         <div class="question">
                                             <div class="left">
 												                                                <a href="http://wordpressqa.com/instant-qa/profile/surferlady"><img alt='' src='http://2.gravatar.com/avatar/5c08d18d8cfedb62753283cda09c2baa?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-5.jpg&#038;r=g' srcset='http://2.gravatar.com/avatar/5c08d18d8cfedb62753283cda09c2baa?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-5.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
@@ -314,8 +335,8 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                              
                                             <div class="clear"></div>
                                         </div>
-                                        <!-- / Question -->
-                                                                                <!-- Question -->
+                                        end  Question1  -->
+                                                                                <!-- extra Question2 
                                         <div class="question">
                                             <div class="left">
 												                                                <a href="http://wordpressqa.com/instant-qa/profile/travelguru"><img alt='' src='http://2.gravatar.com/avatar/596f7384cd4fe2ec35b3f2671113dc16?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-1.jpg&#038;r=g' srcset='http://2.gravatar.com/avatar/596f7384cd4fe2ec35b3f2671113dc16?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-1.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
@@ -338,8 +359,8 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                              
                                             <div class="clear"></div>
                                         </div>
-                                        <!-- / Question -->
-                                                                                <!-- Question -->
+                                        end Question 2-->
+                                                                                <!-- extra Question3 
                                         <div class="question">
                                             <div class="left">
 												                                                <a href="http://wordpressqa.com/instant-qa/profile/inflightchica"><img alt='' src='http://0.gravatar.com/avatar/02e08124c6a267021015fb0c911603c7?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&#038;r=g' srcset='http://0.gravatar.com/avatar/02e08124c6a267021015fb0c911603c7?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
@@ -362,8 +383,8 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                              
                                             <div class="clear"></div>
                                         </div>
-                                        <!-- / Question -->
-                                                                                <!-- Question -->
+                                        end  Question3 -->
+                                                                                <!-- extra Question4 
                                         <div class="question">
                                             <div class="left">
 												                                                <a href="http://wordpressqa.com/instant-qa/profile/inflightchica"><img alt='' src='http://0.gravatar.com/avatar/02e08124c6a267021015fb0c911603c7?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&#038;r=g' srcset='http://0.gravatar.com/avatar/02e08124c6a267021015fb0c911603c7?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
@@ -386,7 +407,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                              
                                             <div class="clear"></div>
                                         </div>
-                                        <!-- / Question -->
+                                        end Question 4-->
                                         
                                         <div class="navigation">
                                         	<div class="whiteBtn right"><a href="page\2\index.htm"><span>Next Questions &raquo;</span></a></div>
@@ -461,8 +482,50 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                 </div>
                             </div>
                         </div>
-                        <!-- Popular Questions -->
-
+                        <!-- ask Questions -->
+                        <div class="wContentBox" style="display:none;">
+                        	<div class="greyBox2">
+                                <div class="greyBoxInner2">
+                                      <h2 class="questionTitle">your question</h2>
+                                      <form action="" method="post">
+                                     <center><div class="form-group">
+                                    <div class="question">                                                                                
+                                    <div class="row"> 
+                                    <div class="col-md-3"><b><br>Title</b></div>
+                                    <div class="col-md-9"> <input type="text" name="txttitle" class="form-control"></div>
+                                       </div>
+                                    </div>
+                                    <div class="question">  
+                                      <div class="row"> 
+                                    <div class="col-md-3"><b><br>  question </b></div>
+                                    <div class="col-md-9"> <textarea class="form-control" name="txtque">  </textarea>
+                                      </div>
+                                    </div>
+                                    </div>
+                                     <div class="question"><div class="row"> 
+                                    <div class="col-md-3"><b><br> image  </b></div>
+                                    <div class="col-md-9"><input type="file" name="txtimage" class="form-control">
+                                    </div>
+                                      </div>
+                                    </div>
+                                     <div class="question">                                                                                
+                                     <div class="row"> 
+                                    <div class="col-md-3"><b><br> date </b></div>
+                                    <div class="col-md-9"><input type="text" name="txtdate" class="form-control">
+                                    </div>
+                                    </div>
+                                    </div>
+                                     <div class="question"><div class="row"> 
+                                    <div class="col-md-3"><b><br>subject </b></div>
+                                    <div class="col-md-9"> <input type="text" name="txtsub" class="form-control">
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <input type="submit" class="btn btn-success" name="btnsubmit" value="Submit">
+                                     </div>
+                                     </center>
+                                   <form>
+                                    </div></div></div>
                     </div>
                     <!-- Tabs Content Blocks -->
                     <div class="reset"></div>
@@ -498,7 +561,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
     <!-- Dynamic Sidebar -->
             <!-- / Dynamic Sidebar -->
     
-    <!-- Star Points Box -->
+    <!-- Star Points Box 
     <div class="yellowBox">
         <div class="yellowBoxInner pointsBox">
             <h3>Star Points Scale</h3>
@@ -529,7 +592,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
             </div>
         </div>
     </div>
-    <!-- / Star Points Box -->
+     / Star Points Box -->
         
     <!-- Ads Box -->
     <div class="greyBox">
