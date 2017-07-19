@@ -131,8 +131,8 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                                 <p>hi test</p>                         
                                                 <div class="questionByline">
                                                     <a href="car-rentals\hiii\index.htm#comments"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="car-rentals\hiii\viewans.php">View Answer</a></span>
-                                                    <span class="answers"><a href="car-rentals\hiii\postans.php">Post Answer</a></span>
+                                                    <span class="answers"><a href="viewans.php">View Answer</a></span>
+                                                    <span class="answers"><a href="postans.php">Post Answer</a></span>
                                                   <!--  <span>In: <a href="category\car-rentals\index.htm" rel="category tag">Car Rentals</a></span>
                                                     <span>By: <a href="profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>-->
                                                  
@@ -472,9 +472,13 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 
 
         </div>
-          <?php include 'footer.php';?> 
-        </div>
-    
+               
+    </div>
+    <!-- / Main Section -->
+
+
+	<!-- Footer Section -->
+     <?php include 'footer.php';?>   
     </div>
     <!-- / Footer Section -->
     <script type='text/javascript' src='wp-includes\js\wp-embed.min.js?ver=4.7.5'></script>
