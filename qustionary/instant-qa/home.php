@@ -1,4 +1,6 @@
-﻿
+﻿<?php
+session_start();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -64,6 +66,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 	<?php include 'nav.php';?>
 	<!-- Main Section -->
     <div id="main">
+ 
     	<div id="mainContent">
         	<?php include 'sidebar.php';?>            
             <!-- Center Column -->
@@ -144,30 +147,40 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                             <div class="clear"></div>
                                         </div>
                                         <!-- / Question -->
-                                                                                <!-- Question -->
-                                        <div class="question">
-                                            <div class="left">
-												                                                <a href="http://wordpressqa.com/instant-qa/profile/demouser"><img alt='' src='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&#038;r=g' srcset='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
-                                            </div>
-                                            <div class="left questionMain">
-                                            	
-                                                <h4><a href="activities\how-to-test\index.htm">how to test</a></h4>
-                                                                                               
-                                                <p>how to test it</p>                         
-                                                <div class="questionByline">
-                                                    <a href="activities\how-to-test\index.htm#respond"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="activities\how-to-test\index.htm#respond">view Answers</a></span>
-                                                     <span class="answers"><a href="activities\how-to-test\index.htm#respond">post Answers</a></span>
-                                                <!--<span>In: <a href="category\activities\index.htm" rel="category tag">Activities</a></span>
-                                                    <span>By: <a href="profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>-->
-                                                 
-                                                    <span class="points">[<span>67</span> <img src="wp-content\themes\instant-qa\images\blue-star-points-icon.png" alt="Blue Star Level" title="Blue Star Level">]</span>
-                                                    <span>May 23, 2017</span>
+                                                                                <!-- Question -->                                                                         
+											                                             <!-- <a href="http://wordpressqa.com/instant-qa/profile/demouser"><img alt='' src='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&#038;r=g' srcset='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>-->
+                                            	   <?php 
+                                                  
+                                              $obj=new question;
+                                              $result=$obj->displayque();
+                                              if($result->num_rows>0)
+                                              {
+                                                    while($row =$result->fetch_assoc())
+                                                    {
+                                                        echo  '<div class="question">';
+                                                        echo  '<div class="left">';
+                                                           ?> <img src="<?php echo $row["user_image"];?>" height="50" width="50" class="avatar avatar-50 photo"><?php
+                                                        echo  '</div>';
+                                                        echo  '<div class="left questionMain">';                                           
+                                                        echo '<h4><font color="blue">'. $row["question_title"].'</h4></font>';                                    
+                                                         echo '<p>'. $row["name"].'<p>';    
+                                                         echo '<div class="questionByline">';
+                                                   echo   '<img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>';
+                                                    echo '<span class="answers"><a href="viewans.php?id='.$row["question_id"].'">view Answers | </a></span>
+                                                     <span class="answers"><a href="Postans.php?id='.$row["question_id"].'">post Answers | </a></span>
+                                                     
+                                                    <span>'. $row["date"].'</span>
                                                 </div>
                                             </div>
                                              
                                             <div class="clear"></div>
-                                        </div>
+                                        </div> ';
+                                                    }
+                                              }
+        
+                                              ?>
+                                                                       
+                                               
                                         <!-- / Question -->
                                                                                 <!-- Question -->
                                         <div class="question">

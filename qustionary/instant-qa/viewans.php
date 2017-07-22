@@ -1,4 +1,6 @@
-﻿
+﻿<?php 
+session_start();
+ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -90,74 +92,93 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                     <div id="wContent">
                     	<div class="greyBox3">
                         	<div class="greyBoxInner3">
-                            <h2 class="questionTitle">hiii? this is question title</h2>
-
-							                                
-                                <div class="post-2434 post type-post status-publish format-standard hentry category-car-rentals" id="post-2434">
+                             <?php $_id=$_GET["id"]; 
+                                               
+                                              $obj=new question;
+                                                 $result1=$obj->viewque($_id); 
+                                                 $row1 =$result1->fetch_assoc();
+                                                  $result=$obj->viewans($_id); 
+                                               
+                                                   echo '<h2 class="questionTitle">'. $row1["question_title"] .'</h2>';
+   echo '<div class="post-2434 post type-post status-publish format-standard hentry category-car-rentals" id="post-2434">
                                    <!-- Question -->
                                     <div class="question">
                                         <div class="left questionIcon">
                                             <div class="date date2">
-                                                <p>Jun</p><p class="dateDay">15</p><p>2017</p>
+                                                <p class="dateDay">'. $row1["date"] .'</p>
+                                                
                                             </div>
                                             <div class="clear"></div>
                                         </div>
                                         <div class="left questionMain">
-                                            <p>hi test this is question description </p>
-<!--<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_16 addtoany_list" data-a2a-url="http://wordpressqa.com/instant-qa/car-rentals/hiii/" data-a2a-title="hiii?"><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fhiii%2F&amp;linkname=hiii%3F" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fhiii%2F&amp;linkname=hiii%3F" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_digg" href="http://www.addtoany.com/add_to/digg?linkurl=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fhiii%2F&amp;linkname=hiii%3F" title="Digg" rel="nofollow" target="_blank"></a><a class="a2a_button_google_bookmarks" href="http://www.addtoany.com/add_to/google_bookmarks?linkurl=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fhiii%2F&amp;linkname=hiii%3F" title="Google Bookmarks" rel="nofollow" target="_blank"></a><a class="a2a_button_delicious" href="http://www.addtoany.com/add_to/delicious?linkurl=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fcar-rentals%2Fhiii%2F&amp;linkname=hiii%3F" title="Delicious" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share" style="background:url(../../wp-content/plugins/add-to-any/favicon.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle"><span>Share/Bookmark</span></a></div></div>                                            <p>
-                                           
-                                            <div class="questionByline">
-                                                <span>In: <a href="..\..\category\car-rentals\index.htm" rel="category tag">Car Rentals</a></span>
-                                                <span>Asked By: <a href="..\..\profile\demouser\index.htm" title="Posts by demoUser" rel="author">demoUser</a></span>
-                                                <span class="points">[<span>67</span> <img src="..\..\wp-content\themes\instant-qa\images\blue-star-points-icon.png" alt="Blue Star Level" title="Blue Star Level">]</span>
-                                            </div>-->
-                                        </div>
-                                        
+                                            <p>'. $row1["question_desc"] .' </p>
+                                       </div>
+                                    
                                         <div class="clear"></div>
                                         <div class="questionByline">
                                             <div class="divider2"></div>
                                          <!--   <span class="right"><a href="#answerQuestionForm" title="Add Your Answer"><b>Answer this Question Now</b></a></span>-->
-                                            <img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers">
-                                            <span class="answers"><a name="commments">1 Answer</a></span>
-                                        </div>
+                                            <img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers">';
+                                             if($result->num_rows>0)
+                                             {       $cnt=0;
+                                                     while($row = $result->fetch_assoc())
+                                                     {
+                                                       $cnt++;
+                                                       
+                                                     }
+                                                      echo '<span class="answers"><a name="commments">'. $cnt .'  Answer</a></span>';
+                                             }
+                                             else
+                                             {
+                                                  echo '<span class="answers"><a name="commments"> No Answer</a></span>'; 
+                                             }
+                                       echo '</div>
                                     </div>
                                     <!-- / Question -->
-                                </div>
-                                
-                        	
-	
-    <div class="comment byuser comment-author-demouser bypostauthor even thread-even depth-1" id="comment-1041">
+                                </div>';
+                              echo    '<div class="comment byuser comment-author-demouser bypostauthor even thread-even depth-1" id="comment-1041">
         <div id="comment-1041">
-        	<!-- Answer -->
-            <div class="question">
-            <div class="left">
-					                    <a href="http://wordpressqa.com/instant-qa/profile/demoUser"><img alt='' src='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&#038;r=g' srcset='http://1.gravatar.com/avatar/4e9ec1a89b19950d559b8874cc727edd?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
-                </div>
+        	<!-- Answer -->';
+                     $result=$obj->viewans($_id); 
+                      if($result->num_rows>0)
+                     {       $cnt=0;
+                            while($row = $result->fetch_assoc())
+                             {
+                                $cnt++;                  
+                    echo '<div class="question">
+            <div class="left">';
+             $ans_id=$row["answer_id"];
+                    $result2=$obj->viewuser($_id,$ans_id); 
+                    $row2 = $result2->fetch_assoc();
+                  ?><img src="<?php echo $row2["user_image"];?>" height="50" width="50"><?php
+                  $_SESSION["id"]=$_id; 
+               echo '</div>
                 <div class="left questionMain">
-                    <h5 class="answerText">Answer #1 </h5>
-                    <div class="clear"></div>
-                    <p>hi</p>
-                   
-                    <div class="questionByline">
+                    <h5 class="answerText">Answer #'.$cnt.' </h5>
+                    <div class="clear"></div><p>'. $row["answer_desc"] .'</p>';
+                   echo '<div class="questionByline">
                         <img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers">
-                        <span>Answered By: <!--<a href="http://wordpressqa.com/instant-qa/profile/demoUser">-->user name</a></span>
-                        <span class="points">[<span>67</span> <img src="wp-content\themes\instant-qa\images\blue-star-points-icon.png" alt="Blue Star Level" title="Blue Star Level">]</span>
+                        <span>Answered By: <!--<a href="http://wordpressqa.com/instant-qa/profile/demoUser">-->'. $row2["name"] .'</a></span>
+                        <span class="points">[<span>'. $row2["answer_like"] .'</span>  <a href="like.php?like='.$ans_id.'" class="btn btn-default btn-xs" >
+            
+  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 
+</a>
+]</span>
                     </div>
                 </div>
                 
                 
                 <div class="clear"></div>
-            </div>
-        	<!-- Answer -->
+            </div>';
+                             }
+                     }
+        	echo '<!-- Answer -->
         </div>
-    </div>
+    </div>';
   
- 
+                   ?>
 
-
-
-                            
-    						<a name="answerQuestionForm"></a>
+					<a name="answerQuestionForm"></a>
 							<h4>Answer this Question</h4>
 							                                 
                                     <p>You must be <a href="login.php">Logged In</a> to post an Answer.</p>

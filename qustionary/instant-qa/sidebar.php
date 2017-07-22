@@ -65,24 +65,23 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
         <div class="siteCategories greyBox">
             <div class="greyBoxInner">
                 <ul>
-                    	<li class="cat-item cat-item-7"><a href="category\activities\index.htm">C++</a>
-</li>
-	<li class="cat-item cat-item-9"><a href="category\beaches\index.htm">Java</a>
-</li>
-	<li class="cat-item cat-item-4"><a href="category\car-rentals\index.htm">C</a>
-</li>
-	<li class="cat-item cat-item-6"><a href="category\cruises\index.htm">Cruises</a>
-</li>
-	<li class="cat-item cat-item-8"><a href="category\deals\index.htm">Php</a>
-<!--<ul class='children'>
-	<li class="cat-item cat-item-10"><a href="category\deals\last-min-deals\index.htm">Last Min Deals</a>
-</li>
-</ul>
-</li>
-	<li class="cat-item cat-item-5"><a href="category\flights\index.htm">Flights</a>
-</li>-->
-	<li class="cat-item cat-item-3"><a href="category\hotels\index.htm">other subject</a>
-</li>      </ul>
+				<?php
+				   require 'database.php';
+    			  $obj=new question;
+    			   $result=$obj->displaysub();
+       
+				  						  if($result->num_rows>0)
+                                             {       
+                                                     while($row = $result->fetch_assoc())
+                                                     {
+                                                     echo '<li class="cat-item cat-item-7"><a href="home1.php?subid='.$row["subject_id"].'">'.$row["subject_name"].'</a> </li>';
+                                                       
+                                                     }
+                                                      
+                                             }
+                   ?>
+				  
+	      </ul>
             </div>
         </div>
 		        <div class="greyBox">
