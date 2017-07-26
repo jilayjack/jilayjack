@@ -1,0 +1,113 @@
+<html>
+<head>
+<script type="text/javascript">
+<!--
+var n1,n2,n3,n4,n5,n6,n6,f;
+var num="";
+var x="";
+var y="";
+function ji1()
+{
+n1=document.frm.a.value;
+num+=n1;
+document.frm.num.value=num;
+}
+function ji2()
+{
+n2=document.frm.b.value;
+num+=n2;
+document.frm.num.value=num;
+}
+
+function ji3()
+{
+n3=document.frm.c.value;
+num+=n3;
+document.frm.num.value=num;
+}
+
+function ji4()
+{
+n4=document.frm.d.value;
+num+=n4;
+document.frm.num.value=num;
+}
+
+function ji5()
+{
+n5=document.frm.e.value;
+num+=n5;
+document.frm.num.value=num;
+}
+
+function ji6()
+{
+n6=document.frm.f.value;
+num+=n6;
+document.frm.num.value=num;
+}
+function plus()
+{
+x=parseInt(num);
+num="";
+f=1;
+}
+function minus()
+{
+x=parseInt(num);
+num="";
+f=2;
+}
+function mul()
+{
+x=parseInt(num);
+num="";
+f=3;
+}
+function div()
+{
+x=parseInt(num);
+num="";
+f=4;
+}
+function ans()
+{
+	y=parseInt(num);
+if(f==1)
+{
+alert(x+y);
+}
+
+if(f==2)
+{
+alert(x-y);
+}
+
+if(f==3)
+{
+alert(x*y);
+}
+
+if(f==4)
+{
+alert(x/y);
+}
+}
+
+//-->
+</script>
+</head>
+<body>
+<form name="frm">
+<input type="text" name="num">
+<br><input type="button" name="a" onclick="ji1()" value="1" ><input type="button" name="b" value="2" onclick="ji2()">
+<input type="button" name="c" value="3" onclick="ji3()">
+<br><input type="button" name="d" value="4" onclick="ji4()"><input type="button" name="e" value="5" onclick="ji5()">
+<input type="button" name="f" value="6" onclick="ji6()">
+<br><input type="button" name="pl" value="+" onclick="plus()"><input type="button" name="mi" value="-" onclick="minus()">
+<input type="button" name="mul" value="*" onclick="mul()">
+<br><input type="button" name="div" value="/" onclick="div()"><input type="button" name="javab" value="=" onclick="ans()">
+</form>
+</body>
+</html>
+

@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+<head>
+<script type="text/javascript">
+<!--
+function val()
+{
+var a,b,c,d,e,f,g;
+a=document.frm.aa.value;
+if(a=="")
+{
+alert("Enter name");
+}
+b=document.frm.bb.value;
+if(b=="")
+{
+alert("Enter surname");
+}
+c=document.frm.cc.value;
+if(c=="")
+{
+alert("Enter address");
+}
+d=document.frm.dd.value;
+var i=0;
+var f=0;
+if(d.length>0)
+{
+for(i=0;i<=9;i++)
+{
+if(d.charAt(i)<"0" || d.charAt(i)>"9")
+{
+f=1;
+}
+}
+}
+if(d="" || d.length<10 || f==1)
+{
+alert("enter proper number");
+}
+f=document.frm.ff.value;
+e=document.frm.ee.value;
+if(f==e)
+{
+}
+else
+{
+alert("password must be same");
+}
+g=document.frm.gg.value;
+if(g=="")
+{
+alert("Enter Email");
+}
+else
+{
+if(g.indexOf('@')==-1)
+{
+alert("Invalid");
+}
+else if(g.indexOf('.')==-1)
+{
+alert("Invalid");
+}
+else
+{
+}
+}
+
+
+
+}
+//-->
+</script>
+</head>
+<body>
+<form name="frm">
+Name:<input type="text" name="aa"><br>
+
+SurName:<input type="text" name="bb"><br>
+Address:<input type="text" name="cc"><br>
+Phone:<input type="text" name="dd"><br>
+email:<input type="text" name="gg" placeholder="Email"><br>
+Password:<input type="password" name="ee"><br>
+Retypepassword<input type="password" name="ff"><br>
+<input type="button" onclick="val()" value="submit">
+</form>
+</body>
+</html>

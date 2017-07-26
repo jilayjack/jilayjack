@@ -61,7 +61,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 </head>
 
 <body id="home">
-	<?php include 'nav.php';?>
+	<?php include 'hnav.php';?>
 	<!-- Main Section -->
     <div id="main">
     	<div id="mainContent">
@@ -80,13 +80,13 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                         <!-- Show Form Errors -->
                                                 <!-- / Show Form Errors -->
                         <div class="formImage right"><img src="wp-content\themes\instant-qa\images\login-image.png" alt="Log In"></div>
-                        <form class="message" name="loginformMain" id="loginformMain" method="post" action="loginlogic.php">
+                        <form class="message" name="loginformMain" id="loginformMain" method="post" action="log.php">
                         	<label for="user_username">Email Id:</label><fieldset><input type="text" name="txtemail" id="user_username" class="input" value="" size="20" maxlength="40" tabindex="10"></fieldset>
-                        	<label for="user_password">Password:</label><fieldset><input type="password" name="txtpassword" id="user_password" class="input" value="" size="20" maxlength="40" tabindex="20"></fieldset>
+                        	<label for="user_password">Password:</label><fieldset><input type="password" name="txtpass" id="user_password" class="input" value="" size="20" maxlength="40" tabindex="20"></fieldset>
 						
                             <input type="hidden" name="login_post" value="1">
                             
-                            <div class="login left"><input type="image" name="btnsubmit" id="wp-submit" src="wp-content\themes\instant-qa\images\login-now-btn.png" value="Log In Now"></div><div class="forgotLink left"><a href="forgotpassword.php">Forgot your password?</a></div>
+                            <div class="login left"><input type="image" name="wp-submit" id="wp-submit" src="wp-content\themes\instant-qa\images\login-now-btn.png" value="Log In Now"></div><div class="forgotLink left"><a href="forgotpassword.php">Forgot your password?</a></div>
                             <div class="clear"></div>
                     	</form>
                         
@@ -106,7 +106,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
             </div>
             <!-- / Center Column -->
           
-           <?php include 'rightsidebar.php';?>   
+           <?php include 'rightsidebar1.php';?>   
 <div class="clear"></div>
 
 

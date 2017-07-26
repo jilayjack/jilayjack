@@ -1,6 +1,8 @@
 <?php
 session_start();
-if ($_SESSION["email"]=="")
+
+
+if ($_SESSION["Username"]=="")
 { 
     header('location:errorshow.php');
 }
@@ -8,12 +10,30 @@ else
 {
   if($_SERVER["REQUEST_METHOD"]=="POST")
     {
-    $_uid=$_SESSION["email"];
+   $conn=new mysqli("localhost","root","","questionery");
+
+//   $_i="";
+    $_uid=$_SESSION["Username"];
     $_qid=$_GET["id"];  
     $_ans=$_POST["txtans"];
     $_img=$_POST["txtansimage"];
-    $_date=$_POST["txtdate"];
-        if(isset($_POST["btnsubmit"]))
+    $_date=date('d/m/y');
+       
+   $sql="insert into answer_tbl values('".null."','".$_ans."','".$_img."','".$_qid."','".$_uid."','".$_date."','0')";
+   if($conn->query($sql)===true){
+    
+    
+     header('location:postans.php?id='.$_qid.'');
+              
+    //echo "succesful";
+}
+else
+{
+    echo "fail";
+    echo $sql;
+}
+    
+       /* if(isset($_POST["btnsubmit"]))
         {
         require 'database.php';
       $obj=new question;
@@ -27,7 +47,7 @@ else
                 echo "record inserted not suseesfully";
                 echo $result;
                 }
-        }
+        }*/
     }
 }
 ?>

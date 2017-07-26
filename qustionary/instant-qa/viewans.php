@@ -7,12 +7,15 @@ session_start();
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script src="share/js/jquery-3.2.1.min.js"></script>
 <!-- latest complied and minified css-->
+
+
 <link rel="stylesheet" href="share/css/bootstrap.min.css">
 <!--optional theme-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
 <link rel="stylesheet" href="share/css/bootstrap-theme.min.css">
 <!-- latest complied and minified javascript-->
 <script src="share/js/bootstrap.min.js"></script>
-<title>hiii? &nbsp;|&nbsp;  Instant Q&amp;A</title>
 <link rel="stylesheet" type="text/css" href="wp-content\themes\instant-qa\style.css"> 
 <link rel="stylesheet" type="text/css" href="wp-content\themes\instant-qa\color-schemes\blue-meadow\blue-meadow-styles.css"> 
 <link rel="pingback" href="http://wordpressqa.com/instant-qa/xmlrpc.php">
@@ -70,7 +73,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 </head>
 
 <body id="">
-  <?php include 'nav.php';?>   
+  <?php include 'hnav.php';?>   
 	<!-- Main Section -->
     <div id="main">
     
@@ -105,11 +108,12 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                     <div class="question">
                                         <div class="left questionIcon">
                                             <div class="date date2">
-                                                <p class="dateDay">'. $row1["date"] .'</p>
+                                                <p><b>'. $row1["date"] .'</p>
                                                 
                                             </div>
                                             <div class="clear"></div>
                                         </div>
+                                        <br>
                                         <div class="left questionMain">
                                             <p>'. $row1["question_desc"] .' </p>
                                        </div>
@@ -201,7 +205,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
             <!-- / Center Column -->
           
             <!-- Right Column -->
-  <?php include 'rightsidebar.php';?>   
+  <?php include 'rightsidebar1.php';?>   
 
 <!-- / Right Column -->
 <div class="clear"></div>

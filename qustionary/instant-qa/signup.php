@@ -1,4 +1,11 @@
-﻿ 
+﻿<?php
+session_start();
+//$conn = mysql_connect("localhost","root","");
+//mysql_select_db("phppot_examples",$conn);
+
+
+?>
+ 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -59,9 +66,12 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 <script type="text/javascript" src="wp-content\themes\instant-qa\js\tab-widget.js"></script>
 
 </head>
+<?php 
 
+
+?>
 <body id="home">
-	<?php include 'nav.php';?>
+	<?php include 'hnav.php';?>
 	<!-- Main Section -->
     <div id="main">
     	<div id="mainContent">
@@ -82,24 +92,29 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                       	
                         <div class="formImage right"><img src="wp-content\themes\instant-qa\images\signup-image.png" alt="Sign Up"></div>
                   			<!-- Sign Up Form -->
-							<form name="signupform" id="signupform" action="" method="post">
-                                
+							<form name="signupform" id="signupform" action="sign.php" method="post">
+                               <div class="message"><?php if(isset($message)) { echo $message; } ?></div>
+ 
                                 <label> Username:<span class="asterixRequired">*</span></label>
-                                <fieldset><input type="text" name="user_login" id="new_user_login" class="text" value=""></fieldset>
+                                <fieldset><input type="text" name="txtuname" id="new_user_login" class="text" value="" required></fieldset>
                                 
-                                <label> Password:<span class="asterixRequired">*</span></label>
-                                <fieldset><input type="password" name="password" id="password1" class="text" value=""></fieldset>
+                                
+                                
                                 <label> Email Address:<span class="asterixRequired">*</span></label><br>
-                                <fieldset><input type="text" class="text" name="user_email" id="user_email" value=""></fieldset>
-								
+                                <fieldset><input type="text" class="text" name="txtemail" id="user_email" value=""  required></fieldset>
+	                          <label> Password:<span class="asterixRequired">*</span></label>
+                                <fieldset><input type="password" name="txtpass" id="password1" class="text" value=""  required></fieldset>
+      							
                                 <label>Mobile no</span></label><br>
-                                <fieldset><input type="text" name="mobileno"  class="text" value=""></fieldset>
+                                <fieldset><input type="text" name="txtno"  class="text" value=""  required></fieldset>
                                   <label>Upload your Image</span></label><br>
-                                <fieldset><input type="file"  class="form-control" name="txtuserimg" ></fieldset>
+                                <fieldset><input type="file"  class="form-control" name="txtimg"  required ></fieldset>
                                 
                                   <label><br>Gender<span class="asterixRequired">*</span></label><br>
-                                <input type="radio" name="gender" value="female"  checked>female<input type="radio" name="gender" value="male">male</div>
-                               
+                                <input type="radio" name="gender" value="female"   checked>female<input type="radio" name="gender" value="male">male</div>
+     <label>Captcha Code<br/><input name="captcha_code" type="text"  required><br></label>
+<img src="captcha_code.php" />
+
                                 <div class="divider"></div>
                                 
                             	<div class="signup"><input type="image" name="signup_submit" id="signup_submit" src="wp-content\themes\instant-qa\images\signup-now-btn.png" value="Sign Up Now"></div>
@@ -123,7 +138,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 
             </div>
             <!-- / Center Column -->
-           <?php include 'rightsidebar.php';?>   
+           <?php include 'rightsidebar1.php';?>   
 <div class="clear"></div>
 
 

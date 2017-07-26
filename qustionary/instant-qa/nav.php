@@ -27,6 +27,7 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
+<!--//tags -->
 <link rel='stylesheet' id='A2A_SHARE_SAVE-css' href='wp-content\plugins\add-to-any\addtoany.min.css?ver=1.13' type='text/css' media='all'>
 <script type='text/javascript' src='wp-includes\js\jquery\jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='wp-includes\js\jquery\jquery-migrate.min.js?ver=1.4.1'></script>
@@ -34,6 +35,10 @@ img.emoji {
 <link rel='https://api.w.org/' href='wp-json\index.htm'>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.xml?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes\wlwmanifest.xml"> 
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
 
 <script type="text/javascript">
 var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};
@@ -57,21 +62,26 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
     	<div id="headerContent">
             <div id="topNav" class="right">
                 <ul>
-                    <li id="homeTab"><a href="home.php"><img src="wp-content\themes\instant-qa\images\home-icon.png" alt="Home">Home</a></li>
-                    <li id="aboutTab"><a href="about.php"><img src="wp-content\themes\instant-qa\images\about-icon.png" alt="About">About</a></li>
-						<li class="dropdown">
+                    <li id="homeTab"><a href="userhome.php"><img src="wp-content\themes\instant-qa\images\home-icon.png" alt="Home">Home</a></li>
+                    <li id="aboutTab"><a href="userabout.php"><img src="wp-content\themes\instant-qa\images\about-icon.png" alt="About">About</a></li>
+		            <li id="aboutTab"><a href="uprofile.php">View Profile</a></li>
+			                                 <li id="aboutTab"> <a href="home.php">Sign Out</a></li>
+    
+    <!-- Brand and toggle get grouped for better mobile display -->
+  
+      
+		   
+			<!--			<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Profile<span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="login.php">View profile</a></li>
             <li><a href="signup1.php">Edit profile</a></li>
             <li><a href="login.php">change password</a></li>
             <li><a href="signup1.php">view password</a></li>
-
+-->
                </ul>
         </li>
-                                        <li id="signupTab"><a href="signup.php"><img src="wp-content\themes\instant-qa\images\signup-icon.png" alt="Sign Up Now">Sign Up Now</a></li>
-                    <li id="loginTab"><a href="login.php"><img src="wp-content\themes\instant-qa\images\login-icon.png" alt="Log In">Log In</a></li>
-					                </ul>
+        			                </ul>
             </div>  
             
                         	<!-- Image Based Logo -->	

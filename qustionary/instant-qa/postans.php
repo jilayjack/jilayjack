@@ -1,12 +1,17 @@
-﻿
+﻿<?php
+session_start();
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script src="share/js/jquery-3.2.1.min.js"></script>
 <!-- latest complied and minified css-->
+
 <link rel="stylesheet" href="share/css/bootstrap.min.css">
 <!--optional theme-->
+
 <link rel="stylesheet" href="share/css/bootstrap-theme.min.css">
 <!-- latest complied and minified javascript-->
 <script src="share/js/bootstrap.min.js"></script>
@@ -66,7 +71,11 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 <script type="text/javascript" src="wp-content\themes\instant-qa\js\tab-widget.js"></script>
 
 </head>
+<?php 
 
+$email=$_SESSION["Username"];
+//echo $email;
+?>
 <body id="">
   <?php include 'nav.php';?>   
 	<!-- Main Section -->
@@ -82,7 +91,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
             <div id="centerCol" class="left">
             
                 <!-- Search Form -->
-				<div class="greenBox"><div class="greenBoxInner searchbox"><h2>Find a Question:</h2><form method="get" id="searchform" action="http://wordpressqa.com/instant-qa/"><div class="submitBtn right"><input type="image" id="searchsubmit" value="Submit" src="wp-content\themes\instant-qa\images\submit-search.png"></div><input type="text" name="s" id="s" class="cleardefault"></form></div></div>                <!-- Search Form -->
+				<div class="greenBox"><div class="greenBoxInner searchbox"><h2>Find a Question:</h2><form method="get" id="searchform" action="#"><div class="submitBtn right"><input type="image" id="searchsubmit" value="Submit" src="wp-content\themes\instant-qa\images\submit-search.png"></div><input type="text" name="s" id="s" class="cleardefault"></form></div></div>                <!-- Search Form -->
                 
                  <!-- Articles Section -->
                 <div id="tabWidget2">
@@ -104,11 +113,11 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                     <div class="question">
                                         <div class="left questionIcon">
                                             <div class="date date2">
-                                                <p class="dateDay">'. $row1["date"] .'</p>
+                                                <p><b>'. $row1["date"] .'</p>
                                                 
                                             </div>
                                             <div class="clear"></div>
-                                        </div>
+                                        </div><br>
                                         <div class="left questionMain">
                                             <p>'. $row1["question_desc"] .' </p>
                                        </div>
@@ -116,7 +125,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                         <div class="clear"></div>
                                         <div class="questionByline">
                                             <div class="divider2"></div>
-                                         <!--   <span class="right"><a href="#answerQuestionForm" title="Add Your Answer"><b>Answer this Question Now</b></a></span>-->
+                                         <!--   <span class="right"><a href="#" title="Add Your Answer"><b>Answer this Question Now</b></a></span>-->
                                             <img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers">';
                                              if($result->num_rows>0)
                                              {       $cnt=0;
@@ -200,12 +209,6 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                                     </div>
                                       </div>
                                     </div>
-                                     <div class="question">                                                                                
-                                     <div class="row"> 
-                                    <div class="col-md-3"><b><br> date </b></div>
-                                    <div class="col-md-9"><input type="text" name="txtdate" class="form-control">
-                                    </div>
-                                    </div>
                                     </div>
                                      
                                     <input type="submit" class="btn btn-success" name="btnsubmit" value="Submit">
@@ -219,10 +222,10 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                         </div>
             
                     </div>
-                    <!-- Tabs Content Blocks -->
+                    <!-- Tabs Content Blocks >
                     <div class="reset"></div>
                 </div>
-                <!-- / Articles Section -->
+                < / Articles Section -->
 
             </div>
             <!-- / Center Column -->

@@ -68,7 +68,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
             <!-- Center Column -->
             <div id="centerCol" class="left">
             	   <!-- Search Form -->
-				<div class="greenBox"><div class="greenBoxInner searchbox"><div class="row"><div class="col-md-2"><h2> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></h2></div><div><h2>Error:</h2><p></div></div><b>To ask question or post your Answer you have to first loggin</b><br>loggin in below or signup<br>Or you enter invalid details</p></div></div>                <!-- Search Form -->
+				<div class="greenBox"><div class="greenBoxInner searchbox"><div class="row"><div class="col-md-2"><h2> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></h2></div><div><h2>Error:</h2><p></div></div><b>To ask question or post your Answer you have to first loggin</b><br>loggin in below or signup</p></div></div>                <!-- Search Form -->
                 
              	<!-- Main Box -->
                 <div class="greyBox3">

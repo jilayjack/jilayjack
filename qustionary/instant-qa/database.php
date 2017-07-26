@@ -34,6 +34,22 @@ class question
             return $res;
              question::disconnect();
          }
+                      public function displayque1()
+         {
+             $conn= question::connect();
+            $res=$conn->query("select u.*,q.*,a.*  from answer_tbl a , user_tbl u,question_tbl q where u.email_id=q.fk_email_id and q.question_id=a.answer_id ");
+            return $res;
+             question::disconnect();
+         }
+      public function searchqs($match)
+         {
+             $conn= question::connect();
+            $res=$conn->query("select * from question_tbl where question_title='".$match."'");
+            return $res;
+             question::disconnect();
+         }
+      
+          
            public function viewque($_id)
          {
              $conn= question::connect();
@@ -51,7 +67,7 @@ class question
            public function insertans($_ans,$_img,$_qid,$_uid,$_date)
          {
              $conn= question::connect();
-            $res=$conn->query("insert into answer_tbl  values('". null ."','". $_ans ."','". $_img ."',". $_qid .",'". $_uid ."','". $_date ."','0')");
+            $res=$conn->query("insert into answer_tbl  values('".null."','".$_ans."','".$_img."','".$_qid."','".$_uid."','".$_date."')");
             return $res;
              question::disconnect();
          }
@@ -69,6 +85,7 @@ class question
             return $res;
              question::disconnect();
          }
+          
           public function displaysubqueuser($_qid)
          {
              $conn= question::connect();

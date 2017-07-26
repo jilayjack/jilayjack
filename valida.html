@@ -1,0 +1,71 @@
+<html>
+<head>
+<script type="text/javascript">
+<!--
+function vali()
+{
+
+	var a,b,c,d,e,f,g;
+	a=document.frm.aa.value;
+
+if(a=="")
+{
+alert("enter name");
+}
+b=document.frm.bb.value;
+var fa=0;
+var i;
+if(b.length>0)
+{
+	for(i=0;i<=9;i++)
+	{
+	if(b.charAt(i)<"0" || b.charAt(i)>"9")
+	{
+		fa=1;
+	}
+	}
+}
+if(b.length<10 || fa==1 || b=="")
+{
+alert("enter proper number");
+}
+	c=document.frm.cc.value;
+if(c=="")
+{
+	alert("Enter Email");
+}
+else
+{
+	if(c.indexOf('@')==-1)
+	{
+	alert("Enter proper email");
+	}
+	else if(c.indexOf('.')==-1)
+	{
+		alert("Enter proper email");
+	}
+	else
+	{
+	}
+}
+
+
+
+}
+
+
+
+//-->
+</script>
+</head>
+<body>
+<form name="frm">
+Name:<input type="text" name="aa">
+<br>Phone:<input type="text" name="bb">
+<br>Email:<input type="text" name="cc">
+<br>Password:<input type="password" name="dd">
+<br>RetypePassword:<input type="password" name="ee">
+<br><input type="button" value="submit" onclick="vali()">
+</form>
+</body>
+</html>

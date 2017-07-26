@@ -61,7 +61,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 </head>
 
 <body id="home">
-	<?php include 'nav.php';?>
+	<?php include 'hnav.php';?>
 	<!-- Main Section -->
     <div id="main">
     	<div id="mainContent">
@@ -107,7 +107,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 
             </div>
             <!-- / Center Column -->
-           <?php include 'rightsidebar.php';?>   
+           <?php include 'rightsidebar1.php';?>   
 <div class="clear"></div>
 
 

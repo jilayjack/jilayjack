@@ -60,16 +60,9 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
     <div class="greyBox">
         <div class="greyBoxInner signup">
                             <!-- Sign Up -->
-                <h3 class="signupTitle">Sign Up</h3>
-                <p>Get all of your questions answered now!</p>
-                <div class="signupBtn"><a href="signup.php"><span>Sign Up Now</span></a></div>
-                <div class="clear"></div>
-                <div class="divider"></div>
                 <!-- / Sign Up -->
                 
                 <!-- Member Login -->
-                <h3>Member Log In</h3>
-                <div class="whiteBtn marTop10"><a href="login.php"><span>Log In Now &raquo;</span></a></div>
                 <div class="clear"></div>
                 <!-- / Member Login -->
                             
