@@ -65,7 +65,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 	<!-- Main Section -->
     <div id="main">
     	<div id="mainContent">
-        	<?php include 'sidebar.php';?>            
+        	<?php include 'sidebar1.php';?>            
             <!-- Center Column -->
             <div id="centerCol" class="left">
             	

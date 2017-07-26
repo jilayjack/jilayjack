@@ -68,7 +68,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
     <div id="main">
  
     	<div id="mainContent">
-        	<?php include 'sidebar.php';?>            
+        	<?php include 'sidebar1.php';?>            
             <!-- Center Column -->
             <div id="centerCol" class="left">
             	
@@ -81,8 +81,8 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                     <div id="wTabs1">
                         <ul>
                             <li class="on"><a href="javascript:showWidget(0,1)">Recent question</a></li>
-                            <li><a href="javascript:showWidget(1,1)">Popular question</a></li>
-                            <li><a href="javascript:showWidget(2,1)">ask question</a></li>
+                            <li><a href="javascript:showWidget(1,1)">popular question</a></li>
+                      <li><a href="errorshow.php">ask question</a></li>
                         </ul>
                     </div>
                     <div class="reset"></div>

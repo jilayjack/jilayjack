@@ -163,7 +163,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                    echo '<div class="questionByline">
                         <img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers">
                         <span>Answered By: <!--<a href="http://wordpressqa.com/instant-qa/profile/demoUser">-->'. $row2["name"] .'</a></span>
-                        <span class="points">[<span>'. $row2["answer_like"] .'</span>  <a href="like.php?like='.$ans_id.'" class="btn btn-default btn-xs" >
+                        <span class="points">[<span>'. $row2["answer_like"] .'</span>  <a href="like2.php?like='.$ans_id.'" class="btn btn-default btn-xs" >
             
   <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 
 </a>

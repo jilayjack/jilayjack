@@ -10,7 +10,7 @@ $conn=new mysqli("localhost","root","","questionery");
 
 if($conn->query($result)===true)
 {
- header('location:postans.php?id='.$_SESSION["id"].'');
+ header('location:viewans.php?id='.$_SESSION["id"].'');
 }
 else
 {

@@ -1,16 +1,21 @@
-﻿
+﻿<?php 
+session_start();
+ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script src="share/js/jquery-3.2.1.min.js"></script>
 <!-- latest complied and minified css-->
+
+
 <link rel="stylesheet" href="share/css/bootstrap.min.css">
 <!--optional theme-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
 <link rel="stylesheet" href="share/css/bootstrap-theme.min.css">
 <!-- latest complied and minified javascript-->
 <script src="share/js/bootstrap.min.js"></script>
-<title>hiii? &nbsp;|&nbsp;  Instant Q&amp;A</title>
 <link rel="stylesheet" type="text/css" href="wp-content\themes\instant-qa\style.css"> 
 <link rel="stylesheet" type="text/css" href="wp-content\themes\instant-qa\color-schemes\blue-meadow\blue-meadow-styles.css"> 
 <link rel="pingback" href="http://wordpressqa.com/instant-qa/xmlrpc.php">
@@ -68,7 +73,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 </head>
 
 <body id="">
-  <?php include 'nav.php';?>   
+  <?php include 'hnav.php';?>   
 	<!-- Main Section -->
     <div id="main">
     
@@ -83,136 +88,57 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
             
                 <!-- Search Form -->
 				<div class="greenBox"><div class="greenBoxInner searchbox"><h2>Find a Question:</h2><form method="get" id="searchform" action="http://wordpressqa.com/instant-qa/"><div class="submitBtn right"><input type="image" id="searchsubmit" value="Submit" src="wp-content\themes\instant-qa\images\submit-search.png"></div><input type="text" name="s" id="s" class="cleardefault"></form></div></div>                <!-- Search Form -->
-                
-                 <!-- Articles Section -->
+                  <!-- Articles Section -->
                 <div id="tabWidget2">
            
                     <!-- Tabs Content Blocks -->
                     <div id="wContent">
                     	<div class="greyBox3">
                         	<div class="greyBoxInner3">
-                           <?php $_id=$_GET["id"]; 
-                                              
-                                              $obj=new question;
-                                                 $result1=$obj->viewque($_id); 
-                                                 $row1 =$result1->fetch_assoc();
-                                                  $result=$obj->viewans($_id); 
-                                               
-                                                   echo '<h2 class="questionTitle">'. $row1["question_title"] .'</h2>';
-   echo '<div class="post-2434 post type-post status-publish format-standard hentry category-car-rentals" id="post-2434">
-                                   <!-- Question -->
-                                    <div class="question">
-                                        <div class="left questionIcon">
-                                            <div class="date date2">
-                                                <p class="dateDay">'. $row1["date"] .'</p>
-                                                
-                                            </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <div class="left questionMain">
-                                            <p>'. $row1["question_desc"] .' </p>
-                                       </div>
+                            <!--<p class="right"><em>Top 25 from the last 30 Days</em></p>-->
                                     
-                                        <div class="clear"></div>
-                                        <div class="questionByline">
-                                            <div class="divider2"></div>
-                                         <!--   <span class="right"><a href="#answerQuestionForm" title="Add Your Answer"><b>Answer this Question Now</b></a></span>-->
-                                            <img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers">';
-                                             if($result->num_rows>0)
-                                             {       $cnt=0;
-                                                     while($row = $result->fetch_assoc())
-                                                     {
-                                                       $cnt++;
+                                        <?php 
+                                             $conn=new mysqli("localhost","root","","questionery");
+                                                         $result=$conn->query("select * from question_tbl where question_id not in(select fk_question_id from answer_tbl)");
+                                                  if($result->num_rows>0)
+                                              {
+                                                    while($row =$result->fetch_assoc())
+                                                    {
+                                                        echo  '<div class="question">';
+                                                        echo  '<div class="left">';
+                                                        $_qid=$row["question_id"];
+                                                         $conn=new mysqli("localhost","root","","questionery");
+                                                         $result1=$conn->query("select u.*,q.* from user_tbl u,question_tbl q where u.email_id=q.fk_email_id and question_id='". $_qid ."'");
+                                                            $row1=$result1->fetch_assoc();
+                                                          ?> <img src="<?php echo $row1["user_image"];?>" height="50" width="50" class="avatar avatar-50 photo"><?php
+                                                        echo  '</div>';
+                                                        echo  '<div class="left questionMain">';                                           
+                                                        echo '<h4><font color="blue">'. $row["question_title"].'</h4></font>';                                    
+                                                         echo '<p>'. $row1["name"].'<p>';  
                                                        
-                                                     }
-                                                      echo '<span class="answers"><a name="commments">'. $cnt .'  Answer</a></span>';
-                                             }
-                                             else
-                                             {
-                                                  echo '<span class="answers"><a name="commments"> No Answer</a></span>'; 
-                                             }
-                                       echo '</div>
-                                    </div>
-                                    <!-- / Question -->
-                                </div>';
-                              echo    '<div class="comment byuser comment-author-demouser bypostauthor even thread-even depth-1" id="comment-1041">
-        <div id="comment-1041">
-        	<!-- Answer -->';
-                     $result=$obj->viewans($_id); 
-                      if($result->num_rows>0)
-                     {       $cnt=0;
-                            while($row = $result->fetch_assoc())
-                             {
-                                $cnt++;                  
-                    echo '<div class="question">
-            <div class="left">';
-             $ans_id=$row["answer_id"];
-                    $result2=$obj->viewuser($_id,$ans_id); 
-                    $row2 = $result2->fetch_assoc();
-                  ?><img src="<?php echo $row2["user_image"];?>" height="50" width="50"><?php
-                  $_SESSION["id"]=$_id; 
-               echo '</div>
-                <div class="left questionMain">
-                    <h5 class="answerText">Answer #'.$cnt.' </h5>
-                    <div class="clear"></div><p>'. $row["answer_desc"] .'</p>';
-                   echo '<div class="questionByline">
-                        <img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers">
-                        <span>Answered By: <!--<a href="http://wordpressqa.com/instant-qa/profile/demoUser">-->'. $row2["name"] .'</a></span>
-                        <span class="points">[<span>'. $row2["answer_like"] .'</span>  <a href="like.php?like='.$ans_id.'" class="btn btn-default btn-xs" >
-            
-  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 
-</a>
-]</span>
-                    </div>
-                </div>
-                
-                
-                <div class="clear"></div>
-            </div>';
-                             }
-                     }
-        	echo '<!-- Answer -->
-        </div>
-    </div>';
-  
-                   ?>
-  
- 
-
-
-
-                            
-    						<a name="answerQuestionForm"></a>
-							<h4>Post Your Ans</h4>
-							    <form action="insertans.php?id=<?php echo $_id; ?>" method="post">
-                                     <center><div class="form-group">
-                                   
-                                    <div class="question">  
-                                      <div class="row"> 
-                                    <div class="col-md-3"><b><br>  Answer </b></div>
-                                    <div class="col-md-9"> <textarea class="form-control" name="txtans">  </textarea>
-                                      </div>
-                                    </div>
-                                    </div>
-                                     <div class="question"><div class="row"> 
-                                    <div class="col-md-3"><b><br> image  </b></div>
-                                    <div class="col-md-9"><input type="file" name="txtansimage" class="form-control">
-                                    </div>
-                                      </div>
-                                    </div>
-                                     <div class="question">                                                                                
-                                     <div class="row"> 
-                                    <div class="col-md-3"><b><br> date </b></div>
-                                    <div class="col-md-9"><input type="text" name="txtdate" class="form-control">
-                                    </div>
-                                    </div>
-                                    </div>
-                                     
-                                    <input type="submit" class="btn btn-success" name="btnsubmit" value="Submit">
-                                     </div>
-                                     </center>
-                                   <form>                              
-                                                                                 
+                                                         echo '<div class="questionByline">';
+                                                   echo   '<img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>';
+                                                    echo '<span class="answers"><a href="viewans.php?id='.$row["question_id"].'">view Answers | </a></span>
+                                                     <span class="answers"><a href="Postans.php?id='.$row["question_id"].'">post Answers | </a></span>
+                                                     
+                                                    <span>'. $row["date"].'</span>
+                                                </div>
+                                            </div>
+                                             
+                                            <div class="clear"></div>
+                                        </div> ';
+                                                    }
+                                                       
+                                         
+                                              }
+                                              else
+                                              {
+                                                    echo '<h2 class="questionTitle">Every question have answer</h2>';
+                                              }
+?>
+                                        <!-- / Question -->
+                                                                             
+                                        <!-- / Question -->                                       
                             
 	                               
                             </div>
@@ -226,8 +152,9 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 
             </div>
             <!-- / Center Column -->
+          
             <!-- Right Column -->
-  <?php include 'rightsidebar.php';?>   
+  <?php include 'rightsidebar1.php';?>   
 
 <!-- / Right Column -->
 <div class="clear"></div>

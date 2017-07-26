@@ -42,8 +42,8 @@ header('location:userhome.php');
 else
 {
 
-   echo 'Enter Valid Details';
-   echo "</div>";
+  header('location:errorshow.php');
+   
 }
 
 }

@@ -81,8 +81,8 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                     <div id="wTabs1">
                         <ul>
                             <li class="on"><a href="javascript:showWidget(0,1)">Recent question</a></li>
-                            <li><a href="javascript:showWidget(1,1)">Popular question</a></li>
-                            <li><a href="javascript:showWidget(2,1)">ask question</a></li>
+                            <li><a href="javascript:showWidget(1,1)">popular question</a></li>
+                            <li><a href="errorshow.php">ask question</a></li>
                         </ul>
                     </div>
                     <div class="reset"></div>
@@ -323,61 +323,8 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                         <div class="wContentBox" style="display:none;">
                         	<div class="greyBox2">
                                 <div class="greyBoxInner2">
-                                      <h2 class="questionTitle">Post Your question</h2>
-                                      <form action="" method="post">
-                                     <center><div class="form-group">
-                                    <div class="question">                                                                                
-                                    <div class="row"> 
-                                    <div class="col-md-3"><b><br>Title</b></div>
-                                    <div class="col-md-9"> <input type="text" name="txttitle" class="form-control"></div>
-                                       </div>
-                                    </div>
-
-                                     <div class="question"><div class="row"> 
-                      <div class="col-md-3"><b><br>Subject </b></div>
-                                    
-                                    
-         
-<select name="fk_subject_id">
-<?php
-$conn=new mysqli("localhost","root","","questionery");
-$sql="select * from subject_tbl";
-$result=$conn->query($sql); 
-if($result->num_rows > 0)
-{
-    while($row=$result->fetch_assoc())
-    {   
-        
-        echo '<option value='. $row["subject_id"] .'>'. $row["subject_name"] .'</option>';
-echo $row["subject_id"];
-
-    }
-}
-?>
-</select>                                    </div>
-                                    </div>
-                                    </div>
-
-                                    <div class="question">  
-                                      <div class="row"> 
-                                    <div class="col-md-3"><b><br>  Question </b></div>
-                                    <div class="col-md-9"> <textarea class="form-control" name="txtque">  </textarea>
-                                      </div>
-                                    </div>
-                                    </div>
-
-                                    
-
-                                     <div class="question"><div class="row"> 
-                                    <div class="col-md-3"><b><br> Image  </b></div>
-                                    <div class="col-md-9"><input type="file" name="txtimage" class="form-control">
-                                    </div>
-                                      </div>
-                                    </div>
-                                   <a href="login.php"  class="btn btn-success" name="btnsubmit" value="Submit">Submit</a>
-                                     </div>
-                                     </center>
-                                   <form>
+                                   <?php  header('location:errorshow.php'); ?>
+                                     
                                     </div></div></div>
                     </div>
                     <!-- Tabs Content Blocks -->

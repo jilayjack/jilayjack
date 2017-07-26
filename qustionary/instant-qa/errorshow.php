@@ -64,11 +64,11 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 	<!-- Main Section -->
     <div id="main">
     	<div id="mainContent">
-        	<?php include 'sidebar.php';?>            
+        	<?php include 'sidebar1.php';?>            
             <!-- Center Column -->
             <div id="centerCol" class="left">
             	   <!-- Search Form -->
-				<div class="greenBox"><div class="greenBoxInner searchbox"><div class="row"><div class="col-md-2"><h2> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></h2></div><div><h2>Error:</h2><p></div></div><b>To ask question or post your Answer you have to first loggin</b><br>loggin in below or signup</p></div></div>                <!-- Search Form -->
+				<div class="greenBox"><div class="greenBoxInner searchbox"><div class="row"><div class="col-md-2"><h2> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></h2></div><div><h2>Error:</h2><p></div></div><b>To ask question or post your Answer you have to first loggin</b><br>loggin in below or signup<br>enter valid detail</p></div></div>                <!-- Search Form -->
                 
              	<!-- Main Box -->
                 <div class="greyBox3">
@@ -78,9 +78,9 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
                         <!-- Show Form Errors -->
                                                 <!-- / Show Form Errors -->
                         <div class="formImage right"><img src="wp-content\themes\instant-qa\images\login-image.png" alt="Log In"></div>
-                        <form class="message" name="loginformMain" id="loginformMain" method="post" action="">
-                        	<label for="user_username">Username:</label><fieldset><input type="text" name="user_login" id="user_username" class="input" value="" size="20" maxlength="40" tabindex="10"></fieldset>
-                        	<label for="user_password">Password:</label><fieldset><input type="password" name="password" id="user_password" class="input" value="" size="20" maxlength="40" tabindex="20"></fieldset>
+                        <form class="message" name="loginformMain" id="loginformMain" method="post" action="log.php">
+                        	<label for="user_username">Username:</label><fieldset><input type="text" name="txtemail" id="user_username" class="input" value="" size="20" maxlength="40" tabindex="10"></fieldset>
+                        	<label for="user_password">Password:</label><fieldset><input type="password" name="txtpass" id="user_password" class="input" value="" size="20" maxlength="40" tabindex="20"></fieldset>
 						
                             <input type="hidden" name="login_post" value="1">
                             

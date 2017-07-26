@@ -11,7 +11,7 @@ $conn=new mysqli("localhost","root","","questionery");
 
 $_title=$_POST["txttitle"];
 $_qs=$_POST["txtqs"];
-$_img=$_POST["txtimg"];
+$_img="";
 //$_cpass=$_POST["txtcpass"];
 
 $_date=date('d/m/y');

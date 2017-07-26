@@ -143,106 +143,7 @@ $email=$_SESSION["Username"];
                     
                                             </div>
                                              </div>
-                                        <!-- / Question -->
-                                                                                <!-- Question -->
-                                       <!-- / quetion -->
-                                                                                <!-- extra Question1 
-                                        <div class="question">
-                                            <div class="left">
-												                                                <a href="http://wordpressqa.com/instant-qa/profile/surferlady"><img alt='' src='http://2.gravatar.com/avatar/5c08d18d8cfedb62753283cda09c2baa?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-5.jpg&#038;r=g' srcset='http://2.gravatar.com/avatar/5c08d18d8cfedb62753283cda09c2baa?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-5.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
-                                            </div>
-                                            <div class="left questionMain">
-                                            	
-                                                <h4><a href="beaches\best-rides\index.htm">Best Rides</a></h4>
-                                                                                               
-                                                <p>Anyone know if a great place to surf on the east coast?</p>                         
-                                                <div class="questionByline">
-                                                    <a href="beaches\best-rides\index.htm#comments"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="beaches\best-rides\index.htm#comments">2 Answers</a></span>
-                                                    <span>In: <a href="category\beaches\index.htm" rel="category tag">Beaches</a></span>
-                                                    <span>By: <a href="profile\surferlady\index.htm" title="Posts by Surferlady" rel="author">Surferlady</a></span>
-                                                 
-                                                    <span class="points">[<span>5</span> <img src="wp-content\themes\instant-qa\images\grey-star-points-icon.png" alt="Grey Star Level" title="Grey Star Level">]</span>
-                                                    <span>Sep 13, 2013</span>
-                                                </div>
-                                            </div>
-                                             
-                                            <div class="clear"></div>
-                                        </div>
-                                        end  Question1  -->
-                                                                                <!-- extra Question2 
-                                        <div class="question">
-                                            <div class="left">
-												                                                <a href="http://wordpressqa.com/instant-qa/profile/travelguru"><img alt='' src='http://2.gravatar.com/avatar/596f7384cd4fe2ec35b3f2671113dc16?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-1.jpg&#038;r=g' srcset='http://2.gravatar.com/avatar/596f7384cd4fe2ec35b3f2671113dc16?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-1.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
-                                            </div>
-                                            <div class="left questionMain">
-                                            	
-                                                <h4><a href="car-rentals\car-insurance\index.htm">Car Insurance</a></h4>
-                                                                                               
-                                                <p>Is it worth it to get the car insurance when you rent a car?</p>                         
-                                                <div class="questionByline">
-                                                    <a href="car-rentals\car-insurance\index.htm#comments"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="car-rentals\car-insurance\index.htm#comments">2 Answers</a></span>
-                                                    <span>In: <a href="category\car-rentals\index.htm" rel="category tag">Car Rentals</a></span>
-                                                    <span>By: <a href="profile\travelguru\index.htm" title="Posts by TravelGuru" rel="author">TravelGuru</a></span>
-                                                 
-                                                    <span class="points">[<span>12</span> <img src="wp-content\themes\instant-qa\images\grey-star-points-icon.png" alt="Grey Star Level" title="Grey Star Level">]</span>
-                                                    <span>Sep 13, 2013</span>
-                                                </div>
-                                            </div>
-                                             
-                                            <div class="clear"></div>
-                                        </div>
-                                        end Question 2-->
-                                                                                <!-- extra Question3 
-                                        <div class="question">
-                                            <div class="left">
-												                                                <a href="http://wordpressqa.com/instant-qa/profile/inflightchica"><img alt='' src='http://0.gravatar.com/avatar/02e08124c6a267021015fb0c911603c7?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&#038;r=g' srcset='http://0.gravatar.com/avatar/02e08124c6a267021015fb0c911603c7?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
-                                            </div>
-                                            <div class="left questionMain">
-                                            	
-                                                <h4><a href="activities\miami-activities\index.htm">Miami Activities</a></h4>
-                                                                                               
-                                                <p>I am traveling to Miami for just two days, what kind of activities would you recommend? </p>                         
-                                                <div class="questionByline">
-                                                    <a href="activities\miami-activities\index.htm#comments"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="activities\miami-activities\index.htm#comments">5 Answers</a></span>
-                                                    <span>In: <a href="category\activities\index.htm" rel="category tag">Activities</a></span>
-                                                    <span>By: <a href="profile\inflightchica\index.htm" title="Posts by InFlightChica" rel="author">InFlightChica</a></span>
-                                                 
-                                                    <span class="points">[<span>31</span> <img src="wp-content\themes\instant-qa\images\green-star-points-icon.png" alt="Green Star Level" title="Green Star Level">]</span>
-                                                    <span>Sep 13, 2013</span>
-                                                </div>
-                                            </div>
-                                             
-                                            <div class="clear"></div>
-                                        </div>
-                                        end  Question3 -->
-                                                                                <!-- extra Question4 
-                                        <div class="question">
-                                            <div class="left">
-												                                                <a href="http://wordpressqa.com/instant-qa/profile/inflightchica"><img alt='' src='http://0.gravatar.com/avatar/02e08124c6a267021015fb0c911603c7?s=50&#038;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&#038;r=g' srcset='http://0.gravatar.com/avatar/02e08124c6a267021015fb0c911603c7?s=100&amp;d=http%3A%2F%2Fwordpressqa.com%2Finstant-qa%2Fwp-content%2Fthemes%2Finstant-qa%2Fimages%2Fdefault-user-avatar-4.jpg&amp;r=g' class='avatar avatar-50 photo' height='50' width='50'></a>
-                                            </div>
-                                            <div class="left questionMain">
-                                            	
-                                                <h4><a href="beaches\less-crowded-beaches\index.htm">Less Crowded Beaches</a></h4>
-                                                                                               
-                                                <p>I live in the southern California area, are there any beaches that are not overpopulated with people?</p>                         
-                                                <div class="questionByline">
-                                                    <a href="beaches\less-crowded-beaches\index.htm#comments"><img src="wp-content\themes\instant-qa\images\num-answer-icon.png" alt="Answers"></a>
-                                                    <span class="answers"><a href="beaches\less-crowded-beaches\index.htm#comments">3 Answers</a></span>
-                                                    <span>In: <a href="category\beaches\index.htm" rel="category tag">Beaches</a></span>
-                                                    <span>By: <a href="profile\inflightchica\index.htm" title="Posts by InFlightChica" rel="author">InFlightChica</a></span>
-                                                 
-                                                    <span class="points">[<span>31</span> <img src="wp-content\themes\instant-qa\images\green-star-points-icon.png" alt="Green Star Level" title="Green Star Level">]</span>
-                                                    <span>Sep 13, 2013</span>
-                                                </div>
-                                            </div>
-                                             
-                                            <div class="clear"></div>
-                                        </div>
-                                        end Question 4-->
-                                        
+                                    
                                         <div class="navigation">
                                         	<!--div class="whiteBtn right"><a href="page\2\index.htm"><span>Next Questions &raquo;</span></a></div-->
                                         	<div class="whiteBtn left"></div>
@@ -373,14 +274,6 @@ echo $row["subject_id"];
                                     </div>
                                     </div>
 
-                                    
-
-                                     <div class="question"><div class="row"> 
-                                    <div class="col-md-3"><b><br> Image  </b></div>
-                                    <div class="col-md-9"><input type="file" name="txtimg" class="form-control">
-                                    </div>
-                                      </div>
-                                    </div>
                                    <input type="submit"  class="btn btn-success" name="btnsubmit" value="Submit">
                                      </div>
                                      </center>

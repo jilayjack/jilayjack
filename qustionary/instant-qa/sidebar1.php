@@ -1,3 +1,4 @@
+
 <html >
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -51,30 +52,49 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 <script type="text/javascript" src="wp-content\themes\instant-qa\js\tab-widget.js"></script>
 
 </head>
+
+
+
 <div id="main">
     	<div id="mainContent">
-           		           <!-- Right Column -->
-<div id="rightCol" class="left">
-    
-	
-    
-    <!-- Ads Box -->
-    <div class="greyBox">
-        <div class="greyBoxInner sponsorsBox">
-            <h3>Sponsors</h3>
-                        <div class="bannerAd ad125x125"> 
-                <a href="http://themeforest.net?ref=esterndesign" target="_blank"><img src="wp-content\uploads\2010\06\gr_125x125_v4.gif" alt="GraphicRiver"></a>            </div>
-                                    <div class="bannerAd ad125x125"> 
-                <a href="http://themeforest.net?ref=esterndesign" target="_blank"><img src="wp-content\uploads\2010\06\tf_125x125_v5.gif" alt="ThemeForest"></a>            </div>
-                        <div class="clear"></div>
+        
+   
+           		<!-- Left Column -->
+    <div id="leftCol" class="left">
+        <h3>Subjects</h3>
+        <div class="siteCategories greyBox">
+            <div class="greyBoxInner">
+                <ul>
+				<?php
+				   require 'database.php';
+    			  $obj=new question;
+    			   $result=$obj->displaysub();
+       
+				  						  if($result->num_rows>0)
+                                             {       
+                                                     while($row = $result->fetch_assoc())
+                                                     {
+                                                     echo '<li class="cat-item cat-item-7"><a href="home1.php?subid='.$row["subject_id"].'">'.$row["subject_name"].'</a> </li>';
+                                                       
+                                                     }
+                                                      
+                                             }
+                   ?>
+				  
+	      </ul>
+            </div>
         </div>
-    </div>
-    <!-- Ads Box -->
-	    
-</div>
-
-<!-- / Right Column -->
-
+		
+		   
+		        <div class="greyBox">
+            <div class="greyBoxInner">
+                <div class="bannerAd ad160x600"> 
+                    <a href="http://themeforest.net?ref=esterndesign" target="_blank"><img src="wp-content\uploads\2010\06\theme-forest-160x600-banner.gif" alt="ThemeForest"></a>
+                </div>
+            </div>
+        </div>
+		
+            </div>
         <script type='text/javascript' src='wp-includes\js\wp-embed.min.js?ver=4.7.5'></script>
     		<script type="text/javascript">
 			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
